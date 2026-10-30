@@ -1,0 +1,415 @@
+===== STREAM URL RESOLVER TAM =====
+    public final Streams resolve(String primary, List<String> alternatives, String subtitleUrl) {
+        Object next;
+        Object next2;
+        String str;
+        String str2;
+        String str3;
+        String string;
+        List listCreateListBuilder = CollectionsKt.createListBuilder();
+        String str4 = null;
+        Object obj = null;
+        if (primary != null && (string = StringsKt.trim((CharSequence) primary).toString()) != null) {
+            if (!INSTANCE.isRealStreamUrl(string)) {
+                string = null;
+            }
+            if (string != null) {
+                listCreateListBuilder.add(string);
+            }
+        }
+        List<String> listEmptyList = alternatives == null ? CollectionsKt.emptyList() : alternatives;
+        ArrayList arrayList = new ArrayList(CollectionsKt.collectionSizeOrDefault(listEmptyList, 10));
+        Iterator<T> it = listEmptyList.iterator();
+        while (it.hasNext()) {
+            arrayList.add(StringsKt.trim((CharSequence) it.next()).toString());
+        }
+        ArrayList arrayList2 = arrayList;
+        ArrayList<String> arrayList3 = new ArrayList();
+        for (Object obj2 : arrayList2) {
+            if (INSTANCE.isRealStreamUrl((String) obj2)) {
+                arrayList3.add(obj2);
+            }
+        }
+        for (String str5 : arrayList3) {
+            if (!listCreateListBuilder.contains(str5)) {
+                listCreateListBuilder.add(str5);
+            }
+        }
+        List listBuild = CollectionsKt.build(listCreateListBuilder);
+        if (listBuild.isEmpty()) {
+            return new Streams(null, null, null);
+        }
+        Iterator it2 = listBuild.iterator();
+        do {
+            if (!it2.hasNext()) {
+                next = null;
+                break;
+            }
+            next = it2.next();
+            str3 = (String) next;
+        } while (!(StringsKt.contains((CharSequence) str3, (CharSequence) "_tr/", true) || StringsKt.contains((CharSequence) str3, (CharSequence) "_tr.", true) || StringsKt.contains((CharSequence) str3, (CharSequence) "/_tr/", true)));
+        String str6 = (String) next;
+        Iterator it3 = listBuild.iterator();
+        do {
+            if (!it3.hasNext()) {
+                next2 = null;
+                break;
+            }
+            next2 = it3.next();
+            str2 = (String) next2;
+        } while (!(!Intrinsics.areEqual(str2, str6) && StringsKt.contains((CharSequence) str2, (CharSequence) ".m3u8", true)));
+        String str7 = (String) next2;
+        if (str7 == null) {
+            str7 = (String) CollectionsKt.getOrNull(listBuild, 1);
+        }
+        String str8 = str7;
+        String str9 = str6 == null ? (String) CollectionsKt.firstOrNull(listBuild) : str6;
+        if (str8 != null && !Intrinsics.areEqual(str8, str9)) {
+            str4 = str8;
+        } else if (listBuild.size() >= 2) {
+            for (Object obj3 : listBuild) {
+                if (!Intrinsics.areEqual((String) obj3, str9)) {
+                    obj = obj3;
+                    break;
+                }
+            }
+            str4 = (String) obj;
+        }
+        String str10 = subtitleUrl;
+        if ((!(str10 == null || StringsKt.isBlank(str10)) && str9 != null) || str9 != null) {
+            str = str9;
+        } else {
+            str = (String) CollectionsKt.first(listBuild);
+        }
+        return new Streams(str, str9, str4);
+    }
+
+    public final boolean hasDistinctPair(String dubbedUrl, String subtitledUrl) {
+        String dubbed = dubbedUrl != null ? StringsKt.trim((CharSequence) dubbedUrl).toString() : null;
+        if (dubbed == null) {
+            dubbed = "";
+        }
+        String string = subtitledUrl != null ? StringsKt.trim((CharSequence) subtitledUrl).toString() : null;
+        String subtitled = string != null ? string : "";
+        return isRealStreamUrl(dubbed) && isRealStreamUrl(subtitled) && !StringsKt.equals(dubbed, subtitled, true);
+    }
+
+    public final boolean isRealStreamUrl(String url) {
+        String value = url != null ? StringsKt.trim((CharSequence) url).toString() : null;
+        if (value == null) {
+            value = "";
+        }
+        if (StringsKt.isBlank(value) || isSubtitleFlagPlaceholder(value)) {
+            return false;
+        }
+        if (!StringsKt.startsWith(value, "http://", true) && !StringsKt.startsWith(value, "https://", true)) {
+            return false;
+        }
+        String lower = value.toLowerCase(Locale.ROOT);
+        Intrinsics.checkNotNullExpressionValue(lower, "toLowerCase(...)");
+        return (Intrinsics.areEqual(lower, "null") || Intrinsics.areEqual(lower, "none")) ? false : true;
+    }
+
+    public final boolean isSubtitleFlagPlaceholder(String url) {
+        String string = url != null ? StringsKt.trim((CharSequence) url).toString() : null;
+        if (string == null) {
+            string = "";
+        }
+        String value = string.toLowerCase(Locale.ROOT);
+        Intrinsics.checkNotNullExpressionValue(value, "toLowerCase(...)");
+        return Intrinsics.areEqual(value, "alt") || Intrinsics.areEqual(value, "eu") || Intrinsics.areEqual(value, "sub");
+    }
+
+    public final String firstRealUrl(List<String> urls) {
+        Object element$iv;
+        Iterable $this$firstOrNull$iv = urls == null ? CollectionsKt.emptyList() : urls;
+        Iterator it = $this$firstOrNull$iv.iterator();
+        while (it.hasNext()) {
+            element$iv = it.next();
+            String it2 = (String) element$iv;
+            if (INSTANCE.isRealStreamUrl(it2)) {
+                return (String) element$iv;
+            }
+        }
+        element$iv = null;
+        return (String) element$iv;
+    }
+
+    public final boolean hasSubtitleSignal(List<String> urls) {
+        Iterable $this$any$iv = urls == null ? CollectionsKt.emptyList() : urls;
+        if (($this$any$iv instanceof Collection) && ((Collection) $this$any$iv).isEmpty()) {
+            return false;
+        }
+        for (Object element$iv : $this$any$iv) {
+            String it = (String) element$iv;
+            if (INSTANCE.isRealStreamUrl(it) || INSTANCE.isSubtitleFlagPlaceholder(it)) {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+===== NEEDS RESOLVE =====
+    public final boolean needsResolve(String url) {
+        Object objM7364constructorimpl;
+        String path;
+        String query;
+        String lowerCase;
+        Intrinsics.checkNotNullParameter(url, "url");
+        if (StremioStreamResolver.INSTANCE.isStremioStreamUrl(url) || isDisguisedHlsPlaylist(url)) {
+            return true;
+        }
+        String lower = url.toLowerCase(Locale.ROOT);
+        Intrinsics.checkNotNullExpressionValue(lower, "toLowerCase(...)");
+        if (StringsKt.contains$default((CharSequence) lower, (CharSequence) ".m3u8", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) lower, (CharSequence) ".mpd", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) lower, (CharSequence) ".mp4", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) lower, (CharSequence) ".flv", false, 2, (Object) null)) {
+            return false;
+        }
+        try {
+            Result.Companion companion = Result.INSTANCE;
+            LiveStreamResolver liveStreamResolver = this;
+            objM7364constructorimpl = Result.m7364constructorimpl(Uri.parse(url));
+        } catch (Throwable th) {
+            Result.Companion companion2 = Result.INSTANCE;
+            objM7364constructorimpl = Result.m7364constructorimpl(ResultKt.createFailure(th));
+        }
+        if (Result.m7370isFailureimpl(objM7364constructorimpl)) {
+            objM7364constructorimpl = null;
+        }
+        Uri uri = (Uri) objM7364constructorimpl;
+        if (uri == null) {
+            return false;
+        }
+        String encodedPath = uri.getEncodedPath();
+        if (encodedPath != null) {
+            path = encodedPath.toLowerCase(Locale.ROOT);
+            Intrinsics.checkNotNullExpressionValue(path, "toLowerCase(...)");
+        } else {
+            path = null;
+        }
+        if (path == null) {
+            path = "";
+        }
+        String encodedQuery = uri.getEncodedQuery();
+        if (encodedQuery != null) {
+            query = encodedQuery.toLowerCase(Locale.ROOT);
+            Intrinsics.checkNotNullExpressionValue(query, "toLowerCase(...)");
+        } else {
+            query = null;
+        }
+        if (query == null) {
+            query = "";
+        }
+        String host = uri.getHost();
+        if (host != null) {
+            lowerCase = host.toLowerCase(Locale.ROOT);
+            Intrinsics.checkNotNullExpressionValue(lowerCase, "toLowerCase(...)");
+        } else {
+            lowerCase = null;
+        }
+        String host2 = lowerCase != null ? lowerCase : "";
+        return StringsKt.contains$default((CharSequence) host2, (CharSequence) "workers.dev", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) host2, (CharSequence) "onrender.com", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) host2, (CharSequence) "mywire.org", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) path, (CharSequence) ".php", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) path, (CharSequence) "go.php", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) path, (CharSequence) "live.php", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) path, (CharSequence) "index.php", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) query, (CharSequence) "token=", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) path, (CharSequence) "id=", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) query, (CharSequence) "id=", false, 2, (Object) null);
+    }
+
+    public final boolean prefersVlcUserAgent(String url) {
+        Intrinsics.checkNotNullParameter(url, "url");
+        String lower = url.toLowerCase(Locale.ROOT);
+        Intrinsics.checkNotNullExpressionValue(lower, "toLowerCase(...)");
+        return StringsKt.contains$default((CharSequence) lower, (CharSequence) "workers.dev", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) lower, (CharSequence) "mywire.org", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) lower, (CharSequence) "index.php", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) lower, (CharSequence) "live.php", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) lower, (CharSequence) "token=", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) lower, (CharSequence) "extension=ts", false, 2, (Object) null);
+    }
+
+    /* JADX WARN: Code duplicated, block: B:7:0x0014  */
+===== YAYIN YÖNLENDİRME VE MIME =====
+    public final ResolvedLiveStream followToMedia(String startUrl, String userAgent) throws IOException {
+        Response response;
+        Throwable th;
+        boolean z = false;
+        String str = startUrl;
+        for (int i = 0; i < 8; i++) {
+            Request request = new Request.Builder().url(str).header(HttpHeaders.USER_AGENT, userAgent).header(HttpHeaders.ACCEPT, "*/*").header(HttpHeaders.CONNECTION, "close").build();
+            Response responseExecute = INSTANCE.getClient().newCall(request).execute();
+            try {
+                Response response2 = responseExecute;
+                String redirected = INSTANCE.redirectUrl(response2, str);
+                if (redirected != null) {
+                    str = redirected;
+                    try {
+                        Unit unit = Unit.INSTANCE;
+                        CloseableKt.closeFinally(responseExecute, null);
+                    } catch (Throwable th2) {
+                        th = th2;
+                    }
+                } else {
+                    int iCode = response2.code();
+                    if (200 <= iCode && iCode < 300) {
+                        z = true;
+                    }
+                    if (!z) {
+                        try {
+                            if (INSTANCE.isDisguisedHlsPlaylist(startUrl)) {
+                                ResolvedLiveStream resolvedLiveStream = new ResolvedLiveStream(startUrl, MimeTypes.APPLICATION_M3U8, userAgent, null, 8, null);
+                                CloseableKt.closeFinally(responseExecute, null);
+                                return resolvedLiveStream;
+                            }
+                        } catch (Throwable th3) {
+                            th = th3;
+                            th = th;
+                            response = responseExecute;
+                        }
+                    }
+                    try {
+                        byte[] peek = INSTANCE.peekBytes(response2, 96);
+                        String strClassify = INSTANCE.classify(str, Response.header$default(response2, HttpHeaders.CONTENT_TYPE, null, 2, null), peek);
+                        String mime = strClassify == null ? INSTANCE.mimeFromUrl(str) : strClassify;
+                        try {
+                            ResolvedLiveStream resolvedLiveStream2 = new ResolvedLiveStream(str, mime, userAgent, null, 8, null);
+                            CloseableKt.closeFinally(responseExecute, null);
+                            return resolvedLiveStream2;
+                        } catch (Throwable th4) {
+                            response = responseExecute;
+                            th = th4;
+                        }
+                    } catch (Throwable th5) {
+                        th = th5;
+                        response = responseExecute;
+                        th = th;
+                    }
+                }
+                th = th2;
+                th = th;
+                response = responseExecute;
+            } catch (Throwable th6) {
+                th = th6;
+            }
+            try {
+                throw th;
+            } catch (Throwable th7) {
+                CloseableKt.closeFinally(response, th);
+                throw th7;
+            }
+        }
+        return new ResolvedLiveStream(str, mimeFromUrl(str), userAgent, null, 8, null);
+    }
+
+    private final String redirectUrl(Response response, String currentUrl) {
+        HttpUrl httpUrlResolve;
+        String url;
+        int iCode = response.code();
+        boolean z = false;
+        if (300 <= iCode && iCode < 400) {
+            z = true;
+        }
+        if (!z) {
+            return null;
+        }
+        String strHeader$default = Response.header$default(response, HttpHeaders.LOCATION, null, 2, null);
+        String location = strHeader$default != null ? StringsKt.trim((CharSequence) strHeader$default).toString() : null;
+        if (location == null) {
+            location = "";
+        }
+        if (StringsKt.isBlank(location)) {
+            return null;
+        }
+        if (StringsKt.startsWith(location, "http://", true) || StringsKt.startsWith(location, "https://", true)) {
+            return location;
+        }
+        HttpUrl httpUrl = HttpUrl.INSTANCE.parse(currentUrl);
+        return (httpUrl == null || (httpUrlResolve = httpUrl.resolve(location)) == null || (url = httpUrlResolve.getUrl()) == null) ? location : url;
+    }
+
+    private final byte[] peekBytes(Response response, int limit) {
+        Object objM7364constructorimpl;
+        ResponseBody body = response.body();
+        if (body == null) {
+            return new byte[0];
+        }
+        try {
+            Result.Companion companion = Result.INSTANCE;
+            LiveStreamResolver liveStreamResolver = this;
+            BufferedSource source = body.getBodySource();
+            source.request(limit);
+            Buffer buffer = source.getBuffer();
+            int size = (int) Math.min(limit, buffer.size());
+            objM7364constructorimpl = Result.m7364constructorimpl(buffer.clone().readByteArray(size));
+        } catch (Throwable th) {
+            Result.Companion companion2 = Result.INSTANCE;
+            objM7364constructorimpl = Result.m7364constructorimpl(ResultKt.createFailure(th));
+        }
+        byte[] bArr = new byte[0];
+        if (Result.m7370isFailureimpl(objM7364constructorimpl)) {
+            objM7364constructorimpl = bArr;
+        }
+        return (byte[]) objM7364constructorimpl;
+    }
+
+    private final String classify(String url, String contentType, byte[] peek) {
+        String ct;
+        String text = new String(peek, Charsets.US_ASCII);
+        boolean z = false;
+        if (StringsKt.contains$default((CharSequence) text, (CharSequence) "#EXTM3U", false, 2, (Object) null) || isDisguisedHlsPlaylist(url)) {
+            return MimeTypes.APPLICATION_M3U8;
+        }
+        String fromUrl = mimeFromUrl(url);
+        if (fromUrl != null) {
+            return fromUrl;
+        }
+        if (contentType != null) {
+            ct = contentType.toLowerCase(Locale.ROOT);
+            Intrinsics.checkNotNullExpressionValue(ct, "toLowerCase(...)");
+        } else {
+            ct = null;
+        }
+        if (ct == null) {
+            ct = "";
+        }
+        if (StringsKt.contains$default((CharSequence) ct, (CharSequence) "mpegurl", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) ct, (CharSequence) "x-mpegurl", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) ct, (CharSequence) "vnd.apple.mpegurl", false, 2, (Object) null)) {
+            return MimeTypes.APPLICATION_M3U8;
+        }
+        if (StringsKt.contains$default((CharSequence) ct, (CharSequence) "dash+xml", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) ct, (CharSequence) "mpd", false, 2, (Object) null)) {
+            return MimeTypes.APPLICATION_MPD;
+        }
+        if (StringsKt.contains$default((CharSequence) ct, (CharSequence) "mp2t", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) ct, (CharSequence) "mpegts", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) ct, (CharSequence) MimeTypes.VIDEO_MP2T, false, 2, (Object) null)) {
+            return MimeTypes.VIDEO_MP2T;
+        }
+        if (StringsKt.contains$default((CharSequence) ct, (CharSequence) "mp4", false, 2, (Object) null)) {
+            return MimeTypes.VIDEO_MP4;
+        }
+        if (StringsKt.contains$default((CharSequence) ct, (CharSequence) "octet-stream", false, 2, (Object) null) && StringsKt.contains((CharSequence) url, (CharSequence) "mp4", true)) {
+            return MimeTypes.VIDEO_MP4;
+        }
+        if (StringsKt.contains$default((CharSequence) ct, (CharSequence) "flv", false, 2, (Object) null) || StringsKt.contains$default((CharSequence) ct, (CharSequence) "x-flv", false, 2, (Object) null)) {
+            return MimeTypes.VIDEO_FLV;
+        }
+        Byte bFirstOrNull = ArraysKt.firstOrNull(peek);
+        if (bFirstOrNull != null && bFirstOrNull.byteValue() == 71) {
+            z = true;
+        }
+        if (z) {
+            return MimeTypes.VIDEO_MP2T;
+        }
+        return null;
+    }
+
+    public final String mimeFromUrl(String url) {
+        Intrinsics.checkNotNullParameter(url, "url");
+        String lowerCase = url.toLowerCase(Locale.ROOT);
+        Intrinsics.checkNotNullExpressionValue(lowerCase, "toLowerCase(...)");
+        String lower = StringsKt.substringBefore$default(StringsKt.substringBefore$default(StringsKt.substringBefore$default(lowerCase, '|', (String) null, 2, (Object) null), '?', (String) null, 2, (Object) null), '#', (String) null, 2, (Object) null);
+        if (StringsKt.contains$default((CharSequence) lower, (CharSequence) ".m3u8", false, 2, (Object) null) || StringsKt.endsWith$default(lower, ".m3u", false, 2, (Object) null)) {
+            return MimeTypes.APPLICATION_M3U8;
+        }
+        if (isDisguisedHlsPlaylist(url)) {
+            return MimeTypes.APPLICATION_M3U8;
+        }
+        if (StringsKt.contains$default((CharSequence) lower, (CharSequence) ".mpd", false, 2, (Object) null)) {
+            return MimeTypes.APPLICATION_MPD;
+        }
+        if (StringsKt.contains$default((CharSequence) lower, (CharSequence) "extension=ts", false, 2, (Object) null) || (StringsKt.contains$default((CharSequence) lower, (CharSequence) ".ts", false, 2, (Object) null) && !StringsKt.contains$default((CharSequence) lower, (CharSequence) ".m3u8", false, 2, (Object) null))) {
+            return MimeTypes.VIDEO_MP2T;
+        }
+        if (StringsKt.contains$default((CharSequence) lower, (CharSequence) ".mp4", false, 2, (Object) null)) {
+            return MimeTypes.VIDEO_MP4;
+        }
+        if (StringsKt.contains$default((CharSequence) lower, (CharSequence) ".flv", false, 2, (Object) null)) {
+            return MimeTypes.VIDEO_FLV;
+        }
+        return null;
