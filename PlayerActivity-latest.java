@@ -118,6 +118,12 @@ if (queueFile != null) {
         selectedIndex =
                 getIntent().getIntExtra("selected_index", 0);
 
+        // Ekran döndürülünce son izlenen kanalı geri yükle.
+        if (savedInstanceState != null) {
+            selectedIndex = savedInstanceState.getInt(
+                    "isa_saved_channel_index", selectedIndex);
+        }
+
         // Ekran döndüğünde son izlenen kanalı koru.
         if (savedInstanceState != null) {
             selectedIndex = savedInstanceState.getInt(
@@ -1181,6 +1187,12 @@ private void showChannelList() {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        outState.putInt("isa_saved_channel_index", selectedIndex);
+        super.onSaveInstanceState(outState);
     }
 
     @Override
