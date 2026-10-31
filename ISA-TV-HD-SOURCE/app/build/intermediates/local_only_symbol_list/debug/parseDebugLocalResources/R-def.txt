@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+drawable logo
+id isa_media_player
+layout isa_player_view
+style AppTheme
+style SplashTheme

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090b10">
+<title>İSA TV HD</title>
+<link rel="stylesheet" href="css/isa-style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="homepage">
+
+<img class="isa-tv-brand-mark" src="assets/logo.png" alt="İSA TV HD">
+
+<header class="isa-header">
+    <div class="isa-header-title">
+        <span class="isa-live-dot"></span>
+        <strong>İSA TV HD</strong>
+    </div>
+    <button id="isa-refresh" class="isa-refresh">
+        <i class="fas fa-rotate"></i>
+        <span>Yenile</span>
+    </button>
+</header>
+
+<main class="isa-main">
+
+    <section id="isa-live-panel" class="isa-panel active">
+        <div class="isa-section-heading">
+            <div>
+                <span class="isa-eyebrow">CANLI YAYIN</span>
+                <h1>Canlı TV</h1>
+                <p id="isa-live-status">Kanallar yükleniyor...</p>
+            </div>
+        </div>
+
+        <div class="isa-source-section">
+            <h2><i class="fas fa-list"></i> Kişisel yayın listelerim</h2>
+
+            <div class="isa-input-row">
+                <input id="isa-list-name" placeholder="Liste adı">
+                <input id="isa-list-url" type="url" placeholder="M3U / M3U8 URL">
+                <button id="isa-add-url" class="isa-action">
+                    <i class="fas fa-plus"></i> Ekle
+                </button>
+            </div>
+
+            <div class="isa-file-row">
+                <label for="isa-m3u-file" class="isa-file-button">
+                    <i class="fas fa-folder-open"></i>
+                    Cihazdan M3U dosyası seç
+                </label>
+                <input id="isa-m3u-file" type="file" accept=".m3u,.m3u8,.txt">
+                <span id="isa-upload-status" aria-live="polite"></span>
+            </div>
+
+            <div id="isa-saved-lists"></div>
+        </div>
+
+        <div class="isa-channel-heading">
+            <h2><i class="fas fa-satellite-dish"></i> Kanallar</h2>
+            <input id="search-input" type="search" placeholder="Kanal ara...">
+        </div>
+
+        <section id="isa-favorites-section" class="isa-favorites-section" style="display:none">
+            <div class="isa-section-heading">
+                <h2>♥ Favori Kanallar</h2>
+            </div>
+            <div id="isa-favorites-grid" class="channels-grid"></div>
+        </section>
+
+        <div id="all-channels">
+            <p class="isa-loading">Kanallar hazırlanıyor...</p>
+        </div>
+    </section>
+
+    <section id="isa-vod-panel" class="isa-panel">
+        <div class="isa-section-heading">
+            <div>
+                <span class="isa-eyebrow">FİLM VE DİZİ</span>
+                <h1>İSA Flix</h1>
+                <p id="isa-vod-status">VOD kaynakları yükleniyor...</p>
+            </div>
+        </div>
+
+        <div id="isa-vod-grid" class="isa-provider-grid"></div>
+        <div id="isa-vod-items"></div>
+    </section>
+
+</main>
+
+<nav class="isa-bottom-nav">
+    <button class="isa-tab active" data-tab="isa-live-panel">
+        <i class="fas fa-tv"></i>
+        <span>Canlı TV</span>
+    </button>
+    <button class="isa-tab" data-tab="isa-vod-panel">
+        <i class="fas fa-film"></i>
+        <span>İSA Flix</span>
+    </button>
+</nav>
+
+<script src="js/isa-sources.js"></script>
+<script src="js/tr-translation.js"></script>
+</body>
+</html>

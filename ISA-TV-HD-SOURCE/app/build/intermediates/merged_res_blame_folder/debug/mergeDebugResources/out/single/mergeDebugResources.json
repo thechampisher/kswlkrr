@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.isatvhd.player.app-debug-35:/layout_isa_player_view.xml.flat",
+        "source": "com.isatvhd.player.app-main-37:/layout/isa_player_view.xml"
+    },
+    {
+        "merged": "com.isatvhd.player.app-debug-35:/drawable-nodpi_logo.png.flat",
+        "source": "com.isatvhd.player.app-main-37:/drawable-nodpi/logo.png"
+    }
+]
