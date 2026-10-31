@@ -1,0 +1,5 @@
+Kaynak: Dizibox Gateway
+Sayfa: http://77.245.155.242/player/iframe.php?url=https%3A%2F%2Fwww.dizibox.live%2F100-days-of-deception-1-sezon-1-bolum-izle%2F
+HTML boyutu: 97285
+Script sayısı: 3
+Script 2 boyutu: 33880
