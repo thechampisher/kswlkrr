@@ -1,0 +1,1380 @@
+========== GITHUB PROJESİ DOSYALARI ==========
+gunestv-main/
+gunestv-main/README.md
+gunestv-main/kanal_logo/
+gunestv-main/kanal_logo/1791859795952.jpg
+gunestv-main/kanal_logo/aspornew.png
+gunestv-main/kanal_logo/atv.png
+gunestv-main/kanal_logo/bikanal.png
+gunestv-main/kanal_logo/bs1.png
+gunestv-main/kanal_logo/bs2.png
+gunestv-main/kanal_logo/bs3.png
+gunestv-main/kanal_logo/bs4.png
+gunestv-main/kanal_logo/bs5.png
+gunestv-main/kanal_logo/bsmx1.png
+gunestv-main/kanal_logo/bsmx2.png
+gunestv-main/kanal_logo/cbc.png
+gunestv-main/kanal_logo/dizitime.jpg
+gunestv-main/kanal_logo/eurosport1.png
+gunestv-main/kanal_logo/eurosport2.png
+gunestv-main/kanal_logo/exxen.png
+gunestv-main/kanal_logo/htspor.png
+gunestv-main/kanal_logo/powerboard.png
+gunestv-main/kanal_logo/sifirtv.png
+gunestv-main/kanal_logo/skysportsf1.png
+gunestv-main/kanal_logo/smartspor.png
+gunestv-main/kanal_logo/smartspor2.png
+gunestv-main/kanal_logo/ssport1.png
+gunestv-main/kanal_logo/ssport2.png
+gunestv-main/kanal_logo/t0.png
+gunestv-main/kanal_logo/tabii.png
+gunestv-main/kanal_logo/tivibu1.png
+gunestv-main/kanal_logo/tivibu2.png
+gunestv-main/kanal_logo/tivibu3.png
+gunestv-main/kanal_logo/tivibu4.png
+gunestv-main/kanal_logo/trt1.png
+gunestv-main/kanal_logo/trtspor2.png
+gunestv-main/kanal_logo/trtspornew.png
+gunestv-main/kanal_logo/trvip.png
+gunestv-main/kanal_logo/trvip10.png
+gunestv-main/kanal_logo/trvip2.png
+gunestv-main/kanal_logo/trvip3.png
+gunestv-main/kanal_logo/trvip4.png
+gunestv-main/kanal_logo/trvip5.png
+gunestv-main/kanal_logo/trvip6.png
+gunestv-main/kanal_logo/trvip7.png
+gunestv-main/kanal_logo/trvip8.png
+gunestv-main/kanal_logo/trvip9.png
+gunestv-main/kanal_logo/tv8.png
+gunestv-main/kanal_logo/tv85.png
+gunestv-main/kanal_logo/vod1.png
+gunestv-main/kanal_logo/vod2.png
+gunestv-main/kanal_logo/vod3.png
+gunestv-main/kanal_logo/vod4.png
+gunestv-main/kanal_logo/vod5.png
+gunestv-main/kanal_logo/vod6.png
+gunestv-main/kanal_logo/vod7.png
+gunestv-main/kanal_logo/xxx.txt
+gunestv-main/live2.json
+gunestv-main/vod2.json
+
+========== GITHUB JSON DOSYALARI ==========
+gunestv-main/live2.json
+gunestv-main/vod2.json
+
+========== ÇÖZÜLMÜŞ APK KAYNAKLARI ==========
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/media
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/net
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/os
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/app
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/content
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/telephony
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/view
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/window
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/aa
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ab
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ad
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ae
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/annotation
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/browser
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/graphics
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/mediarouter
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/recyclerview
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/preference
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/tvprovider
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/window
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/appcompat
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/versionedparcelable
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/work
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/cardview
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/room
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/drawerlayout
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/coordinatorlayout
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/startup
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/constraintlayout
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/webkit
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/profileinstaller
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/emoji2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/fragment
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ba
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/bb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/be
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ca
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/cd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/com
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/com/android
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/com/bumptech
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/com/google
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/com/gunes
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/com/pairip
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/com/airbnb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/com/pierfrancescosoffritti
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/cb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/cc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/dc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ea
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/da
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/g1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/g4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/g5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/g6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/g8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/g9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ga
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ee
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/gb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/gc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/f
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/f3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/f4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/f5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/f9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/fc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ha
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/hb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ia
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/hd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/id
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ie
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/j2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ja
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/j0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/kotlin
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/kotlin/jvm
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/kotlin/coroutines
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/k0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/j5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/k2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/k3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/k4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/k6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/k7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/k8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/l
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/l1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/kc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/kd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ke
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/l3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/l4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/l8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/j6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/j9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/l9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/la
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/lb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/lc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ld
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/le
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ma
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/mc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/md
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/nb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/nc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/nd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/oa
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ob
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/od
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/okhttp3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/okhttp3/internal
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/org
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/org/chromium
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/org/conscrypt
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/pa
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/pb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/pd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/qa
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/qd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/r
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/q
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/q0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/q1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/r0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/r1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/r2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/r4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/q2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/q3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/r6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/q4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/q6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/r7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/sa
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/rc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/sd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/q7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/q8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/p3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/tc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ua
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/vb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/vd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ub
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ud
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/wb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/wc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/x2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/x7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/x6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ya
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/za
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/bd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/gd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ib
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/oc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/bc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/je
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/j3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/qc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/vc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/x3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/me
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/db
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ed
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/l5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/eb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/j4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/jb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/yb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/fe
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/pc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/f8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/xd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/f1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/jc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/zb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/l0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ge
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ce
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/j1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ra
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/g
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/x1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/wa
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/x8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/x9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/x5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/xa
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/xb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/xc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ka
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/rb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/r5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/s8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/uc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/kb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/g2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/jd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/td
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/va
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/yc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/c9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/v1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/d9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/zd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/fd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/l6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/t4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w0
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e8
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/u6
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ec
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/i2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/sb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/qb
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/na
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/hc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/sc
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/ac
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/z5
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/x4
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/r9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h2
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/y3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/n9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/o9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/w3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/b9
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/m1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/f7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/fa
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/g3
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/h7
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/e1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/META-INF
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/META-INF/androidx
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/META-INF/com
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/META-INF/jsoup
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/META-INF/nanohttpd
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/META-INF/native-image
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/META-INF/services
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/assets
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/assets/assets
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/assets/dexopt
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/darwin
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/darwin/aarch64
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/darwin/x86_64
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/kotlin
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/kotlin/annotation
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/kotlin/collections
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/kotlin/concurrent
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/kotlin/coroutines
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/kotlin/internal
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/kotlin/ranges
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/kotlin/reflect
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/org
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/org/conscrypt
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/anim
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/animator
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/color
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/color-night
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/color-v31
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/drawable
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/drawable-anydpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/drawable-hdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/drawable-nodpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/drawable-watch
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/drawable-xhdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/drawable-xxxhdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/font
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/interpolator
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/layout
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/layout-land
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/layout-sw600dp
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/layout-watch
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/menu
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/mipmap-hdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/mipmap-anydpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/mipmap-mdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/mipmap-xhdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/mipmap-xxhdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/mipmap-xxxhdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/raw
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/transition
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/xml
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-anydpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-h320dp-port
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-h360dp-land
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-h480dp-land
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-h480dp
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-h550dp-port
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-h720dp
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-hdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-land
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-large
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-ldrtl
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-night-v33
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-night
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-nodpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-port
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-sw360dp
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-sw600dp
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-sw720dp
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-v29
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-v30
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-v31
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-v33
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-v34
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-v35
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-w320dp-land
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-w360dp-port
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-w400dp-port
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-w600dp-land
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-watch
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-xhdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-xlarge
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/res/values-xxxhdpi
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/win
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/win/aarch64
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/win/amd64
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/win/x86
+
+========== APK MANIFEST ==========
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/resources/AndroidManifest.xml
+
+========== JSON VE API ADRESLERİ ==========
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/a.java:37:import org.json.JSONException;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/a.java:38:import org.json.JSONObject;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a0/d.java:7:        throw new a(p.i("Compose Runtime internal error. Unexpected or incorrect use of the Compose internal runtime API (", str, "). Please report to Google or use https://goo.gle/compose-feedback"));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/h.java:27:import org.json.JSONException;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/h.java:28:import org.json.JSONObject;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:17:import androidx.media3.exoplayer.hls.playlist.DefaultHlsPlaylistTracker;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:18:import androidx.media3.exoplayer.hls.playlist.HlsPlaylistParserFactory;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:19:import androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:52:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker.Factory
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/u0.java:55:import org.json.JSONException;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/u0.java:56:import org.json.JSONObject;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/DefaultMediaItemConverter.java:16:import org.json.JSONException;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/DefaultMediaItemConverter.java:17:import org.json.JSONObject;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/RemoteCastPlayer.java:96:    private MediaMetadata playlistMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/RemoteCastPlayer.java:510:            Log.e(TAG, "Failed to initialize Cast. This may be due to Google Play services not being available, see https://support.google.com/googleplay/answer/9037938", e10);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/RemoteCastPlayer.java:558:        listener.onPlaylistMetadataChanged(this.playlistMetadata);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/RemoteCastPlayer.java:1248:        return this.playlistMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/RemoteCastPlayer.java:1564:        if (mediaMetadata.equals(this.playlistMetadata)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/RemoteCastPlayer.java:1567:        this.playlistMetadata = mediaMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/RemoteCastPlayer.java:1738:        this.playbackException = bVar == null ? new PlaybackException("Failed to initialize Cast. This may be due to Google Play services not being available, see https://support.google.com/googleplay/answer/9037938", new o7.e(new Exception("Module Unavailable")), 1001) : null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/RemoteCastPlayer.java:1742:        this.playlistMetadata = mediaMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/h.java:59:import org.json.JSONObject;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:111:    private static final String ISM_HLS_FORMAT_EXTENSION = "format=m3u8-aapl";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:1188:            case "m3u8":
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:253:                M3u8Provider m3u8Provider = new M3u8Provider(strE0, string4, true, null, null, null, null, null, 248, null);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:255:                    arrayList2.add(new mi(m3u8Provider, "Radio"));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:265:                vkVar.f12630a.add(0, new sk(String.valueOf(m3u8Provider.getSource().hashCode()), strE0, null, null, null, 252));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:293:                M3u8Provider m3u8Provider2 = new M3u8Provider(strE02, string5, true, null, null, null, null, null, 248, null);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:295:                    arrayList.add(new mi(m3u8Provider2, "TV"));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:305:                vkVar2.f12630a.add(0, new sk(String.valueOf(m3u8Provider2.getSource().hashCode()), strE02, null, null, null, 252));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:473:        private final b1 playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:478:            this.playlist = b1.k(list);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:533:            return ((MediaItemData) this.playlist.get(i11)).getPeriod(i11, i10 - this.firstPeriodIndexByWindowIndex[i11], period);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:556:            return ((MediaItemData) this.playlist.get(i11)).getPeriodUid(i10 - this.firstPeriodIndexByWindowIndex[i11]);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:561:            return ((MediaItemData) this.playlist.get(i10)).getWindow(this.firstPeriodIndexByWindowIndex[i10], window);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:566:            return this.playlist.size();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:599:        public final MediaMetadata playlistMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:646:            private b1 playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:647:            private MediaMetadata playlistMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:783:                    h8.e.f(hashSet.add(list.get(i10).uid), "Duplicate MediaItemData UID in playlist");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:785:                this.playlist = b1.k(list);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:786:                this.timeline = new PlaylistTimeline(this.playlist);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:793:                this.playlistMetadata = mediaMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:890:                this.playlist = t2.D;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:894:                this.playlistMetadata = MediaMetadata.EMPTY;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:924:                this.playlist = null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:961:                    this.playlist = ((PlaylistTimeline) timeline).playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:966:                this.playlistMetadata = state.playlistMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:995:            return this.playWhenReady == state.playWhenReady && this.playWhenReadyChangeReason == state.playWhenReadyChangeReason && this.availableCommands.equals(state.availableCommands) && this.playbackState == state.playbackState && this.playbackSuppressionReason == state.playbackSuppressionReason && Objects.equals(this.playerError, state.playerError) && this.repeatMode == state.repeatMode && this.shuffleModeEnabled == state.shuffleModeEnabled && this.isLoading == state.isLoading && this.seekBackIncrementMs == state.seekBackIncrementMs && this.seekForwardIncrementMs == state.seekForwardIncrementMs && this.maxSeekToPreviousPositionMs == state.maxSeekToPreviousPositionMs && this.playbackParameters.equals(state.playbackParameters) && this.trackSelectionParameters.equals(state.trackSelectionParameters) && this.audioAttributes.equals(state.audioAttributes) && this.volume == state.volume && this.unmuteVolume == state.unmuteVolume && this.videoSize.equals(state.videoSize) && this.currentCues.equals(state.currentCues) && this.deviceInfo.equals(state.deviceInfo) && this.deviceVolume == state.deviceVolume && this.isDeviceMuted == state.isDeviceMuted && this.surfaceSize.equals(state.surfaceSize) && this.newlyRenderedFirstFrame == state.newlyRenderedFirstFrame && this.timedMetadata.equals(state.timedMetadata) && this.timeline.equals(state.timeline) && this.currentTracks.equals(state.currentTracks) && this.currentMetadata.equals(state.currentMetadata) && this.playlistMetadata.equals(state.playlistMetadata) && this.currentMediaItemIndex == state.currentMediaItemIndex && this.currentAdGroupIndex == state.currentAdGroupIndex && this.currentAdIndexInAdGroup == state.currentAdIndexInAdGroup && this.contentPositionMsSupplier.equals(state.contentPositionMsSupplier) && this.adPositionMsSupplier.equals(state.adPositionMsSupplier) && this.contentBufferedPositionMsSupplier.equals(state.contentBufferedPositionMsSupplier) && this.adBufferedPositionMsSupplier.equals(state.adBufferedPositionMsSupplier) && this.totalBufferedDurationMsSupplier.equals(state.totalBufferedDurationMsSupplier) && this.hasPositionDiscontinuity == state.hasPositionDiscontinuity && this.positionDiscontinuityReason == state.positionDiscontinuityReason && this.discontinuityPositionMs == state.discontinuityPositionMs;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1001:                return ((PlaylistTimeline) timeline).playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1021:            int iHashCode3 = (((((this.totalBufferedDurationMsSupplier.hashCode() + ((this.adBufferedPositionMsSupplier.hashCode() + ((this.contentBufferedPositionMsSupplier.hashCode() + ((this.adPositionMsSupplier.hashCode() + ((this.contentPositionMsSupplier.hashCode() + ((((((((this.playlistMetadata.hashCode() + ((this.currentMetadata.hashCode() + ((this.currentTracks.hashCode() + ((this.timeline.hashCode() + ((this.timedMetadata.hashCode() + ((((this.surfaceSize.hashCode() + ((((((this.deviceInfo.hashCode() + ((this.currentCues.hashCode() + ((this.videoSize.hashCode() + ((Float.floatToRawIntBits(this.unmuteVolume) + ((Float.floatToRawIntBits(this.volume) + ((this.audioAttributes.hashCode() + ((this.trackSelectionParameters.hashCode() + ((this.playbackParameters.hashCode() + ((i11 + ((int) (j8 ^ (j8 >>> 32)))) * 31)) * 31)) * 31)) * 31)) * 31)) * 31)) * 31)) * 31)) * 31) + this.deviceVolume) * 31) + (this.isDeviceMuted ? 1 : 0)) * 31)) * 31) + (this.newlyRenderedFirstFrame ? 1 : 0)) * 31)) * 31)) * 31)) * 31)) * 31)) * 31) + this.currentMediaItemIndex) * 31) + this.currentAdGroupIndex) * 31) + this.currentAdIndexInAdGroup) * 31)) * 31)) * 31)) * 31)) * 31)) * 31) + (this.hasPositionDiscontinuity ? 1 : 0)) * 31) + this.positionDiscontinuityReason) * 31;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1043:                    h8.e.f(builder.currentMediaItemIndex < builder.timeline.getWindowCount(), "currentMediaItemIndex must be less than playlist.size()");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1055:                if (builder.playlist != null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1056:                    MediaItemData mediaItemData = (MediaItemData) builder.playlist.get(i10);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1105:                this.playlistMetadata = builder.playlistMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1119:            h8.e.f(builder.playbackState == 1 || builder.playbackState == 4, "Empty playlist only allowed in STATE_IDLE or STATE_ENDED");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1120:            h8.e.f(builder.currentAdGroupIndex == -1 && builder.currentAdIndexInAdGroup == -1, "Ads not allowed if playlist is empty");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1165:            this.playlistMetadata = builder.playlistMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1187:            return new ArrayList(((PlaylistTimeline) state.timeline).playlist);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1215:            MediaItemData mediaItemData = (MediaItemData) ((PlaylistTimeline) timeline).playlist.get(i11);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1419:        PlaylistTimeline playlistTimeline = new PlaylistTimeline(list);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1423:        int mediaItemIndexInNewPlaylist = getMediaItemIndexInNewPlaylist(timeline, playlistTimeline, currentMediaItemIndexInternal, period, window);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1426:            mediaItemIndexInNewPlaylist = getMediaItemIndexInNewPlaylist(timeline, playlistTimeline, i10, period, window);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1431:        return buildStateForNewPosition(builderBuildUpon, state, j, playlistTimeline, mediaItemIndexInNewPlaylist, j7, true, window);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1436:        Timeline playlistTimeline = list == null ? state.timeline : new PlaylistTimeline(list);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1438:            if (playlistTimeline.isEmpty() || (i10 != -1 && i10 >= playlistTimeline.getWindowCount())) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1444:        return buildStateForNewPosition(builderBuildUpon, state, state.contentPositionMsSupplier.get(), playlistTimeline, i10, j, false, window);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:1773:        listener.onPlaylistMetadataChanged(state.playlistMetadata);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:3683:        if (!state2.playlistMetadata.equals(state.playlistMetadata)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/SimpleBasePlayer.java:4549:        return this.state.playlistMetadata;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:255:        r14 = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:272:        if (jd.l.D(r1, ".m3u8", false) == false) goto L361;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:630:                                    charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:637:                                charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:648:                                    charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:658:                                        zD = jd.l.D(lowerCase3, ".m3u8", false);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:664:                                        charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:712:                                                            charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:720:                                                                if (jd.l.D(lowerCase4, ".m3u8", false)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:721:                                                                    charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:729:                                                                            charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:733:                                                                            charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:817:                                                                        charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:822:                                                                charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:846:                                                    charSequence = "playlist.txt";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:937:                if (!jd.s.z(str19, "http://", true) && !jd.s.z(str19, "https://", true)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/datasource/cache/a.java:3:import androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/datasource/DataSpec.java:5:import androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/datasource/HttpDataSource.java:48:            super("Cleartext HTTP traffic not permitted. See https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted", iOException, dataSpec, PlaybackException.ERROR_CODE_IO_CLEARTEXT_NOT_PERMITTED, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/datasource/RawResourceDataSource.java:86:                    throw new RawResourceDataSourceException("Package in android.resource:// URI not found. Check http://g.co/dev/packagevisibility.", e10, PlaybackException.ERROR_CODE_IO_FILE_NOT_FOUND);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/dash/manifest/DashManifestParser.java:374:            if (n1.j("http://dashif.org/guidelines/last-segment-number", descriptor.schemeIdUri)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/dash/manifest/DashManifestParser.java:1984:            if (n1.j("http://dashif.org/guidelines/trickmode", list.get(i11).schemeIdUri)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/dash/manifest/DashManifestParser.java:2213:            if ((n1.j("http://dashif.org/thumbnail_tile", descriptor.schemeIdUri) || n1.j("http://dashif.org/guidelines/thumbnail_tile", descriptor.schemeIdUri)) && (str = descriptor.value) != null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/dash/DashMediaPeriod.java:338:        return findDescriptor(list, "http://dashif.org/guidelines/trickmode");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/drm/FrameworkMediaDrm.java:38:    private static final String MOCK_LA_URL = "<LA_URL>https://x</LA_URL>";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/drm/FrameworkMediaDrm.java:39:    private static final String MOCK_LA_URL_VALUE = "https://x";
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/drm/FrameworkMediaDrm.java:113:        if (Build.VERSION.SDK_INT >= 33 && "https://default.url".equals(str)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/drm/HttpMediaDrmCallback.java:59:            map.put("SOAPAction", "http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/offline/HlsDownloader.java:11:import androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/offline/HlsDownloader.java:12:import androidx.media3.exoplayer.hls.playlist.HlsMultivariantPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/offline/HlsDownloader.java:13:import androidx.media3.exoplayer.hls.playlist.HlsPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/offline/HlsDownloader.java:14:import androidx.media3.exoplayer.hls.playlist.HlsPlaylistParser;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/package-info.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylist.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsMultivariantPlaylist.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsMediaPlaylist.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsMediaPlaylist.java:40:    public final int playlistType;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsMediaPlaylist.java:520:        public final Uri playlistUri;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsMediaPlaylist.java:523:            this.playlistUri = uri;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsMediaPlaylist.java:585:        this.playlistType = i10;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsMediaPlaylist.java:621:        return new HlsMediaPlaylist(this.playlistType, this.baseUri, this.tags, this.startOffsetUs, this.preciseStart, j, true, i10, this.mediaSequence, this.version, this.targetDurationUs, this.partTargetDurationUs, this.hasIndependentSegments, this.hasEndTag, this.hasProgramDateTime, this.protectionSchemes, this.segments, this.trailingParts, this.serverControl, this.renditionReports, this.interstitials);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsMediaPlaylist.java:625:        return this.hasEndTag ? this : new HlsMediaPlaylist(this.playlistType, this.baseUri, this.tags, this.startOffsetUs, this.preciseStart, this.startTimeUs, this.hasDiscontinuitySequence, this.discontinuitySequence, this.mediaSequence, this.version, this.targetDurationUs, this.partTargetDurationUs, this.hasIndependentSegments, true, this.hasProgramDateTime, this.protectionSchemes, this.segments, this.trailingParts, this.serverControl, this.renditionReports, this.interstitials);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParserFactory.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/FilteringHlsPlaylistParserFactory.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/FilteringHlsPlaylistParserFactory.java:19:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistParserFactory
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/FilteringHlsPlaylistParserFactory.java:24:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistParserFactory
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistTracker.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistTracker.java:50:    void addListener(PlaylistEventListener playlistEventListener);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistTracker.java:70:    void removeListener(PlaylistEventListener playlistEventListener);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistParserFactory.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistParserFactory.java:8:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistParserFactory
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistParserFactory.java:13:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistParserFactory
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:16:import androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:17:import androidx.media3.exoplayer.hls.playlist.HlsMultivariantPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:461:    /* JADX WARN: Type inference failed for: r1v25, types: [androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist$Interstitial$Builder] */
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:462:    /* JADX WARN: Type inference failed for: r1v37, types: [androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist$Interstitial$Builder] */
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:463:    /* JADX WARN: Type inference failed for: r1v38, types: [androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist$Interstitial$Builder] */
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:464:    /* JADX WARN: Type inference failed for: r1v39, types: [androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist$Interstitial$Builder] */
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:523:    /* JADX WARN: Type inference failed for: r7v38, types: [androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist$Interstitial$Builder] */
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:565:        DrmInitData playlistProtectionSchemes;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:602:        DrmInitData playlistProtectionSchemes2 = null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:891:                                                                if (playlistProtectionSchemes2 == null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:892:                                                                    playlistProtectionSchemes2 = getPlaylistProtectionSchemes(encryptionScheme, schemeDataArr);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1193:                                                                    playlistProtectionSchemes = playlistProtectionSchemes2;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1201:                                                                    if (playlistProtectionSchemes2 == null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1202:                                                                        playlistProtectionSchemes = getPlaylistProtectionSchemes(encryptionScheme, schemeDataArr2);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1206:                                                                        playlistProtectionSchemes = playlistProtectionSchemes2;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1219:                                                                playlistProtectionSchemes2 = playlistProtectionSchemes;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1252:                                                            if (playlistProtectionSchemes2 == null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1253:                                                                playlistProtectionSchemes2 = getPlaylistProtectionSchemes(encryptionScheme, schemeDataArr3);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1359:            Uri uri = renditionReport.playlistUri;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1378:        return new HlsMediaPlaylist(i14, str, arrayList18, j12, optionalBooleanAttribute, jMsToUs3, z14, i15, j19, intAttr, intAttr2, doubleAttr, z11, z13, jMsToUs3 != 0, playlistProtectionSchemes2, arrayList16, arrayList7, serverControl3, map5, arrayList20);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/HlsPlaylistParser.java:1880:                    throw ParserException.createForMalformedManifest("Failed to parse the playlist, could not identify any tags.", null);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:1:package androidx.media3.exoplayer.hls.playlist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:15:import androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:16:import androidx.media3.exoplayer.hls.playlist.HlsMultivariantPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:17:import androidx.media3.exoplayer.hls.playlist.HlsPlaylistParser;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:18:import androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:52:    private final HashMap<Uri, MediaPlaylistBundle> playlistBundles;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:53:    private final HlsPlaylistParserFactory playlistParserFactory;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:54:    private Handler playlistRefreshHandler;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:55:    private final double playlistStuckTargetDurationCoefficient;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:65:        @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker.PlaylistEventListener
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:70:        @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker.PlaylistEventListener
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:78:                    MediaPlaylistBundle mediaPlaylistBundle2 = (MediaPlaylistBundle) DefaultHlsPlaylistTracker.this.playlistBundles.get(list.get(i11).url);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:84:                if (fallbackSelectionFor != null && fallbackSelectionFor.type == 2 && (mediaPlaylistBundle = (MediaPlaylistBundle) DefaultHlsPlaylistTracker.this.playlistBundles.get(uri)) != null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:105:        private IOException playlistError;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:106:        private HlsMediaPlaylist playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:107:        private final Uri playlistUrl;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:110:            this.playlistUrl = uri;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:118:            return !this.playlistUrl.equals(DefaultHlsPlaylistTracker.this.primaryMediaPlaylistUrl) || DefaultHlsPlaylistTracker.this.maybeSelectNewPrimaryUrl();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:122:            HlsMediaPlaylist hlsMediaPlaylist = this.playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:126:                    Uri.Builder builderBuildUpon = this.playlistUrl.buildUpon();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:127:                    HlsMediaPlaylist hlsMediaPlaylist2 = this.playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:130:                        HlsMediaPlaylist hlsMediaPlaylist3 = this.playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:140:                    HlsMediaPlaylist.ServerControl serverControl2 = this.playlistSnapshot.serverControl;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:147:            return this.playlistUrl;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:157:            ParsingLoadable.Parser<HlsPlaylist> parserCreatePlaylistParser = DefaultHlsPlaylistTracker.this.playlistParserFactory.createPlaylistParser(DefaultHlsPlaylistTracker.this.multivariantPlaylist, this.playlistSnapshot);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:181:                DefaultHlsPlaylistTracker.this.playlistRefreshHandler.postDelayed(new Runnable() { // from class: androidx.media3.exoplayer.hls.playlist.a
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:194:            HlsMediaPlaylist hlsMediaPlaylist2 = this.playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:198:            this.playlistSnapshot = latestPlaylistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:199:            IOException playlistStuckException = null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:201:                this.playlistError = null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:203:                DefaultHlsPlaylistTracker.this.onPlaylistUpdated(this.playlistUrl, latestPlaylistSnapshot);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:205:                if (hlsMediaPlaylist.mediaSequence + ((long) hlsMediaPlaylist.segments.size()) < this.playlistSnapshot.mediaSequence) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:206:                    playlistStuckException = new HlsPlaylistTracker.PlaylistResetException(this.playlistUrl);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:210:                    if (jElapsedRealtime - this.lastSnapshotChangeMs > DefaultHlsPlaylistTracker.this.playlistStuckTargetDurationCoefficient * Util.usToMs(r13.targetDurationUs)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:211:                        playlistStuckException = new HlsPlaylistTracker.PlaylistStuckException(this.playlistUrl);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:214:                if (playlistStuckException != null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:215:                    this.playlistError = playlistStuckException;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:216:                    DefaultHlsPlaylistTracker.this.notifyPlaylistError(this.playlistUrl, new LoadErrorHandlingPolicy.LoadErrorInfo(loadEventInfo, new MediaLoadData(4), playlistStuckException, 1), z);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:219:            HlsMediaPlaylist hlsMediaPlaylist3 = this.playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:229:            if (this.playlistSnapshot.hasEndTag) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:232:            if (this.playlistUrl.equals(DefaultHlsPlaylistTracker.this.primaryMediaPlaylistUrl) || this.activeForPlayback) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:238:            return this.playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:247:            if (this.playlistSnapshot == null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:251:            long jMax = Math.max(30000L, Util.usToMs(this.playlistSnapshot.durationUs));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:252:            HlsMediaPlaylist hlsMediaPlaylist = this.playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:253:            return hlsMediaPlaylist.hasEndTag || (i10 = hlsMediaPlaylist.playlistType) == 2 || i10 == 1 || this.lastSnapshotLoadMs + jMax > jElapsedRealtime;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:257:            loadPlaylistInternal(z ? getMediaPlaylistUriForReload() : this.playlistUrl);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:262:            IOException iOException = this.playlistError;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:291:                this.playlistError = ParserException.createForMalformedManifest("Loaded playlist has unexpected type.", null);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:292:                DefaultHlsPlaylistTracker.this.eventDispatcher.loadError(loadEventInfo, 4, this.playlistError, true);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:312:            if (DefaultHlsPlaylistTracker.this.notifyPlaylistError(this.playlistUrl, loadErrorInfo, false)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:340:            this.playlistBundles.put(uri, new MediaPlaylistBundle(uri));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:412:        MediaPlaylistBundle mediaPlaylistBundle = this.playlistBundles.get(uri);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:413:        HlsMediaPlaylist playlistSnapshot = mediaPlaylistBundle.getPlaylistSnapshot();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:418:        if (playlistSnapshot == null || playlistSnapshot.hasEndTag) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:430:            MediaPlaylistBundle mediaPlaylistBundle = this.playlistBundles.get(list.get(i10).url);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:433:                Uri uri = mediaPlaylistBundle.playlistUrl;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:449:            MediaPlaylistBundle mediaPlaylistBundle = this.playlistBundles.get(uri);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:450:            HlsMediaPlaylist hlsMediaPlaylist2 = mediaPlaylistBundle.playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:486:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:487:    public void addListener(HlsPlaylistTracker.PlaylistEventListener playlistEventListener) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:488:        playlistEventListener.getClass();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:489:        this.listeners.add(playlistEventListener);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:492:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:494:        MediaPlaylistBundle mediaPlaylistBundle = this.playlistBundles.get(uri);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:500:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:502:        MediaPlaylistBundle mediaPlaylistBundle = this.playlistBundles.get(uri);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:509:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:514:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:519:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:521:        HlsMediaPlaylist playlistSnapshot = this.playlistBundles.get(uri).getPlaylistSnapshot();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:522:        if (playlistSnapshot != null && z) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:526:        return playlistSnapshot;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:529:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:534:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:536:        return this.playlistBundles.get(uri).isSnapshotValid();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:539:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:541:        this.playlistBundles.get(uri).maybeThrowPlaylistRefreshError();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:544:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:556:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:558:        this.playlistBundles.get(uri).loadPlaylist(true);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:561:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:562:    public void removeListener(HlsPlaylistTracker.PlaylistEventListener playlistEventListener) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:563:        this.listeners.remove(playlistEventListener);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:566:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:568:        this.playlistRefreshHandler = Util.createHandlerForCurrentLooper();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:575:        ParsingLoadable parsingLoadable = new ParsingLoadable(this.dataSourceFactory.createDataSource(4), dataSpecBuild, 4, this.playlistParserFactory.createPlaylistParser());
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:582:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:590:        Iterator<MediaPlaylistBundle> it = this.playlistBundles.values().iterator();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:594:        this.playlistRefreshHandler.removeCallbacksAndMessages(null);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:595:        this.playlistRefreshHandler = null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:596:        this.playlistBundles.clear();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:601:        this.playlistParserFactory = hlsPlaylistParserFactory;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:604:        this.playlistStuckTargetDurationCoefficient = d10;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:607:        this.playlistBundles = new HashMap<>();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/playlist/DefaultHlsPlaylistTracker.java:628:        MediaPlaylistBundle mediaPlaylistBundle = this.playlistBundles.get(this.primaryMediaPlaylistUrl);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/HlsManifest.java:3:import androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/HlsManifest.java:4:import androidx.media3.exoplayer.hls.playlist.HlsMultivariantPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/HlsInterstitialsAdsLoader.java:28:import androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/HlsInterstitialsAdsLoader.java:51:import org.json.JSONObject;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/HlsInterstitialsAdsLoader.java:1438:            throw new IllegalStateException("media item with adsId='" + obj + "' already started. Make sure adsIds are unique within the same playlist.");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/AssetListParser.java:17:import org.json.JSONArray;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/AssetListParser.java:18:import org.json.JSONException;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/AssetListParser.java:19:import org.json.JSONObject;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/HlsMediaPeriod.java:22:import androidx.media3.exoplayer.hls.playlist.HlsMultivariantPlaylist;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/exoplayer/hls/HlsMediaPeriod.java:23:import androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker;
+
+========== OYNATICI VE KÜTÜPHANELER ==========
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/h.java:8:import androidx.media3.session.legacy.MediaControllerCompat;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/t.java:16:import androidx.media3.container.NalUnitUtil;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/t.java:17:import androidx.media3.exoplayer.DefaultRenderersFactory;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/t.java:18:import androidx.media3.extractor.AacUtil;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/t.java:19:import androidx.media3.extractor.flac.FlacConstants;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/t.java:20:import androidx.media3.extractor.ts.TsExtractor;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/t.java:164:            if (bundle.containsKey(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DURATION)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/t.java:165:                j8 = bundle.getLong(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DURATION, 0L);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21$ExtraBinderRequestResultReceiver.java:7:import androidx.media3.session.legacy.MediaSessionCompat;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/q.java:12:import androidx.media3.session.legacy.MediaControllerCompat;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/q.java:13:import androidx.media3.session.legacy.MediaSessionCompat;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaDescriptionCompat.java:54:        Uri uriA = bundleD != null ? (Uri) bundleD.getParcelable(androidx.media3.session.legacy.MediaDescriptionCompat.DESCRIPTION_KEY_MEDIA_URI) : null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaDescriptionCompat.java:57:        } else if (bundleD.containsKey(androidx.media3.session.legacy.MediaDescriptionCompat.DESCRIPTION_KEY_NULL_BUNDLE_FLAG) && bundleD.size() == 2) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaDescriptionCompat.java:60:            bundleD.remove(androidx.media3.session.legacy.MediaDescriptionCompat.DESCRIPTION_KEY_MEDIA_URI);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaDescriptionCompat.java:61:            bundleD.remove(androidx.media3.session.legacy.MediaDescriptionCompat.DESCRIPTION_KEY_NULL_BUNDLE_FLAG);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:31:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_TITLE, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:32:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ARTIST, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:33:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DURATION, 0);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:34:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:35:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_AUTHOR, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:36:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_WRITER, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:37:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPOSER, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:38:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPILATION, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:39:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DATE, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:40:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_YEAR, 0);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:41:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_GENRE, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:42:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_TRACK_NUMBER, 0);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:43:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_NUM_TRACKS, 0);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:44:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISC_NUMBER, 0);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:45:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ARTIST, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:46:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART, 2);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:47:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART_URI, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:48:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART, 2);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:49:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART_URI, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:50:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_USER_RATING, 3);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:51:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_RATING, 3);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:52:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_TITLE, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:53:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_SUBTITLE, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:54:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_DESCRIPTION, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:55:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON, 2);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:56:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON_URI, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:57:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_ID, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:58:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_BT_FOLDER_TYPE, 0);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:59:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_URI, 1);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:61:        eVar.put(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DOWNLOAD_STATUS, 0);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:62:        D = new String[]{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_TITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_WRITER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_AUTHOR, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPOSER};
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:63:        E = new String[]{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART};
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:64:        F = new String[]{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART_URI};
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:84:        CharSequence charSequence = bundle.getCharSequence(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_ID);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:87:        CharSequence charSequence2 = bundle.getCharSequence(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_TITLE);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:106:            charSequenceArr[1] = bundle.getCharSequence(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_SUBTITLE);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:107:            charSequenceArr[2] = bundle.getCharSequence(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_DESCRIPTION);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:142:        CharSequence charSequence5 = bundle.getCharSequence(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_URI);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:149:        if (bundle.containsKey(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_BT_FOLDER_TYPE)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:152:            bundle2.putLong(androidx.media3.session.legacy.MediaDescriptionCompat.EXTRA_BT_FOLDER_TYPE, bundle.getLong(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_BT_FOLDER_TYPE, 0L));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:157:        if (bundle.containsKey(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DOWNLOAD_STATUS)) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaMetadataCompat.java:158:            bundle2.putLong("android.media.extra.DOWNLOAD_STATUS", bundle.getLong(androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DOWNLOAD_STATUS, 0L));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaBrowserCompat$ItemReceiver.java:7:import androidx.media3.session.legacy.MediaBrowserServiceCompat;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/MediaBrowserCompat$SearchResultReceiver.java:7:import androidx.media3.session.legacy.MediaBrowserServiceCompat;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a0/p.java:4:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/h.java:10:import androidx.media3.exoplayer.rtsp.RtspHeaders;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/h.java:11:import androidx.media3.extractor.metadata.icy.IcyHeaders;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/h0.java:11:import androidx.media3.exoplayer.rtsp.SessionDescription;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/h0.java:12:import androidx.media3.extractor.text.ttml.TtmlNode;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:6:import androidx.media3.cast.CastPlayer;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:7:import androidx.media3.common.DebugViewProvider;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:8:import androidx.media3.common.Format;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:9:import androidx.media3.common.Player;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:10:import androidx.media3.common.audio.DefaultGainProvider;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:11:import androidx.media3.common.util.ListenerSet;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:12:import androidx.media3.datasource.DataSpec;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:13:import androidx.media3.datasource.cache.CacheKeyFactory;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:14:import androidx.media3.exoplayer.audio.AudioOutput;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:15:import androidx.media3.exoplayer.audio.AudioOutputProvider;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:16:import androidx.media3.exoplayer.hls.HlsDataSourceFactory;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:17:import androidx.media3.exoplayer.hls.playlist.DefaultHlsPlaylistTracker;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:18:import androidx.media3.exoplayer.hls.playlist.HlsPlaylistParserFactory;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:19:import androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:20:import androidx.media3.exoplayer.source.chunk.BundledChunkExtractor;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:21:import androidx.media3.exoplayer.upstream.CmcdConfiguration;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:22:import androidx.media3.exoplayer.upstream.LoadErrorHandlingPolicy;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:23:import androidx.media3.extractor.DefaultExtractorsFactory;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:24:import androidx.media3.extractor.metadata.id3.Id3Decoder;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:25:import androidx.media3.extractor.mp3.Mp3Extractor;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:47:    @Override // androidx.media3.datasource.cache.CacheKeyFactory
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:52:    @Override // androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker.Factory
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:57:    @Override // androidx.media3.extractor.metadata.id3.Id3Decoder.FramePredicate
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:67:    @Override // androidx.media3.extractor.DefaultExtractorsFactory.ExtensionLoader.ConstructorSupplier
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:77:    @Override // androidx.media3.common.DebugViewProvider
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:82:    @Override // androidx.media3.common.audio.DefaultGainProvider.FadeProvider
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:96:    @Override // androidx.media3.common.util.ListenerSet.Event
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:120:    @Override // androidx.media3.exoplayer.source.chunk.BundledChunkExtractor.ManifestFormatMerger
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/i0.java:125:    @Override // androidx.media3.cast.CastPlayer.TransferCallback
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/widget/NestedScrollView.java:24:import androidx.media3.common.o;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/widget/NestedScrollView.java:25:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/widget/NestedScrollView.java:26:import androidx.media3.extractor.ts.TsExtractor;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/widget/NestedScrollView.java:27:import androidx.media3.session.MediaUtils;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/z0.java:3:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/MediaNowPlayingView.java:12:import androidx.media3.exoplayer.ExoPlayer;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/y0.java:14:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/y0.java:15:import androidx.media3.extractor.text.ttml.TtmlNode;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:10:import androidx.media3.session.MediaUtils;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/k.java:590:                    y8.p pVarF = i4.B(pVarD, pVarC).f(iVar.f15064h, new androidx.media3.exoplayer.source.h(iVar, pVarD, pVarC, i10));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/k.java:591:                    i4.B(pVarF).e(iVar.f15064h, new androidx.media3.cast.h(iVar, pVarF, 26));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/d0.java:5:import androidx.media3.exoplayer.analytics.AnalyticsListener;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/o.java:5:import androidx.media3.session.MediaUtils;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:19:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:20:import androidx.media3.extractor.ts.TsExtractor;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:21:import androidx.media3.session.MediaUtils;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/l.java:4:import androidx.media3.session.MediaUtils;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/j.java:3:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/q0.java:3:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/t0.java:3:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/v.java:3:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/k.java:3:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/i1.java:3:import androidx.media3.exoplayer.analytics.AnalyticsListener;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/i1.java:4:import androidx.media3.extractor.ts.PsExtractor;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/h.java:3:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/i.java:3:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/m0.java:3:import androidx.media3.common.C;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/m0.java:4:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/m0.java:5:import androidx.media3.container.MdtaMetadataEntry;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/m0.java:6:import androidx.media3.container.NalUnitUtil;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/m0.java:7:import androidx.media3.exoplayer.DefaultRenderersFactory;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/m0.java:8:import androidx.media3.extractor.AacUtil;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/m0.java:9:import androidx.media3.extractor.flac.FlacConstants;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/datastore/preferences/protobuf/m0.java:10:import androidx.media3.extractor.ts.TsExtractor;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/c0.java:10:import androidx.media3.exoplayer.analytics.DefaultAnalyticsCollector;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/c0.java:11:import androidx.media3.exoplayer.source.ads.AdsMediaSource;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/n0.java:6:import androidx.media3.session.legacy.PlaybackStateCompat;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/R.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/SessionAvailabilityListener.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/o.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/package-info.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/d.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/e.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/e.java:3:import androidx.media3.cast.MediaRouteButtonKt;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/ComposableSingletons$MediaRouteButtonKt.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/ComposableSingletons$MediaRouteButtonKt.java:9:    public static bd.f f0lambda1 = new c0.b(1358229378, false, new bd.f() { // from class: androidx.media3.cast.ComposableSingletons$MediaRouteButtonKt$lambda-1$1
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/b.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaItemConverter.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaItemConverter.java:3:import androidx.media3.common.MediaItem;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/k.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/k.java:3:import androidx.media3.common.Player;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/k.java:4:import androidx.media3.common.util.ListenerSet;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/k.java:19:    @Override // androidx.media3.common.util.ListenerSet.Event
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/j.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/j.java:3:import androidx.media3.common.Player;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/j.java:4:import androidx.media3.common.util.ListenerSet;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/j.java:21:    @Override // androidx.media3.common.util.ListenerSet.Event
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/m.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/m.java:3:import androidx.media3.common.Player;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/m.java:4:import androidx.media3.common.util.ListenerSet;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/m.java:21:    @Override // androidx.media3.common.util.ListenerSet.Event
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/i.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/i.java:3:import androidx.media3.common.FlagSet;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/i.java:4:import androidx.media3.common.Player;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/i.java:5:import androidx.media3.common.util.ListenerSet;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/i.java:20:    @Override // androidx.media3.common.util.ListenerSet.Event
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/i.java:54:    @Override // androidx.media3.common.util.ListenerSet.IterationFinishedEvent
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:5:import androidx.media3.common.C;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:6:import androidx.media3.common.MediaItem;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:7:import androidx.media3.common.Timeline;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:83:    @Override // androidx.media3.common.Timeline
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:95:    @Override // androidx.media3.common.Timeline
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:103:    @Override // androidx.media3.common.Timeline
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:109:    @Override // androidx.media3.common.Timeline
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:114:    @Override // androidx.media3.common.Timeline
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:123:    @Override // androidx.media3.common.Timeline
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:128:    @Override // androidx.media3.common.Timeline
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastTimeline.java:133:    @Override // androidx.media3.common.Timeline
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/c.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/DefaultCastOptionsProvider.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonStateKt$rememberMediaRouteButtonState$1$1.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonStateKt$rememberMediaRouteButtonState$1$1.java:3:import androidx.media3.container.NalUnitUtil;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonStateKt$rememberMediaRouteButtonState$1$1.java:9:@tc.e(c = "androidx.media3.cast.MediaRouteButtonStateKt$rememberMediaRouteButtonState$1$1", f = "MediaRouteButtonState.kt", l = {NalUnitUtil.H265_NAL_UNIT_TYPE_UNSPECIFIED}, m = "invokeSuspend")
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonState.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonState.java:45:    /* JADX INFO: renamed from: androidx.media3.cast.MediaRouteButtonState$observe$1, reason: invalid class name */
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonState.java:47:    @tc.e(c = "androidx.media3.cast.MediaRouteButtonState", f = "MediaRouteButtonState.kt", l = {79}, m = "observe")
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonStateKt.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonKt$MediaRouteButtonContainer$1$1.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonKt$MediaRouteButtonContainer$1$1.java:4:import androidx.media3.common.util.BackgroundExecutor;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonKt$MediaRouteButtonContainer$1$1.java:5:import androidx.media3.common.util.Log;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonKt$MediaRouteButtonContainer$1$1.java:13:@tc.e(c = "androidx.media3.cast.MediaRouteButtonKt$MediaRouteButtonContainer$1$1", f = "MediaRouteButton.kt", l = {}, m = "invokeSuspend")
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouteButtonKt$MediaRouteButtonContainer$1$1.java:56:        g gVar = new g(0, new bd.c() { // from class: androidx.media3.cast.f
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/g.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/g.java:3:import androidx.media3.common.DeviceInfo;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/g.java:4:import androidx.media3.common.MediaItem;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/g.java:5:import androidx.media3.common.PlaybackParameters;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/g.java:6:import androidx.media3.common.Player;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/g.java:7:import androidx.media3.common.Timeline;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/g.java:8:import androidx.media3.common.util.ListenerSet;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/g.java:23:    @Override // androidx.media3.common.util.ListenerSet.Event
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/MediaRouterCallback.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastUtils.java:1:package androidx.media3.cast;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastUtils.java:3:import androidx.media3.common.C;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastUtils.java:4:import androidx.media3.common.Format;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastUtils.java:5:import androidx.media3.common.MimeTypes;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/cast/CastUtils.java:6:import androidx.media3.common.PlaybackException;
+
+========== UYGULAMA EKRANLARI ==========
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/z.java:8:import android.content.pm.ActivityInfo;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/android/support/v4/media/session/z.java:690:                        ActivityInfo activityInfo = listQueryBroadcastReceivers.get(0).activityInfo;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a0/p.java:5:import androidx.recyclerview.widget.RecyclerView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/a0/p.java:56:    public static String f(RecyclerView recyclerView, StringBuilder sb2) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/b.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/b.java:13:    public static void d(Activity activity, String[] strArr, int i10) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/h.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/h.java:206:        if (context instanceof Activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/h.java:209:            x6.i.g("Can not create dialog without Activity Context");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/c.java:6:import android.content.pm.ActivityInfo;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/c.java:33:        return c(context, componentName2) == null ? Intent.makeMainActivity(componentName2) : new Intent().setComponent(componentName2);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/c.java:37:        Intent parentActivityIntent = iVar.getParentActivityIntent();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/c.java:38:        if (parentActivityIntent != null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/c.java:39:            return parentActivityIntent;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/c.java:48:                return c(iVar, componentName) == null ? Intent.makeMainActivity(componentName) : new Intent().setComponent(componentName);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/c.java:50:                Log.e("NavUtils", "getParentActivityIntent: bad parentActivityName '" + strC + "' in manifest");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/c.java:60:        ActivityInfo activityInfo = context.getPackageManager().getActivityInfo(componentName, Build.VERSION.SDK_INT >= 29 ? 269222528 : 787072);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/c.java:61:        String str = activityInfo.parentActivityName;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/e.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/e.java:10:public abstract class e extends Activity implements androidx.lifecycle.u, c1.m {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/e.java:15:    @Override // android.app.Activity, android.view.Window.Callback
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/e.java:23:    @Override // android.app.Activity, android.view.Window.Callback
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/e.java:31:    @Override // android.app.Activity
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/core/app/e.java:38:    @Override // android.app.Activity
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:11:import androidx.recyclerview.widget.RecyclerView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:18:public abstract class g extends RecyclerView {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:61:    @Override // androidx.recyclerview.widget.RecyclerView, android.view.ViewGroup, android.view.View
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:78:    @Override // androidx.recyclerview.widget.RecyclerView, android.view.ViewGroup
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:178:    @Override // androidx.recyclerview.widget.RecyclerView
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:188:    @Override // androidx.recyclerview.widget.RecyclerView
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:193:    @Override // androidx.recyclerview.widget.RecyclerView
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:220:    @Override // androidx.recyclerview.widget.RecyclerView, android.view.ViewGroup
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:282:    @Override // androidx.recyclerview.widget.RecyclerView
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/g.java:457:    @Override // androidx.recyclerview.widget.RecyclerView
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/k.java:12:import android.webkit.WebView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/k.java:19:import androidx.drawerlayout.widget.DrawerLayout;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/k.java:21:import androidx.recyclerview.widget.RecyclerView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/k.java:127:                RecyclerView recyclerView = (RecyclerView) g2Var.f11524a.B;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/k.java:204:                RecyclerView recyclerView2 = (RecyclerView) bpVar.f11270a.B;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/k.java:321:                            WebView webViewP0 = stVar.p0();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/k.java:623:                DrawerLayout drawerLayout = eVar3.f17108d;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:22:import androidx.recyclerview.widget.RecyclerView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:135:    public final boolean A0(RecyclerView recyclerView, View view, Rect rect, boolean z) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:312:    public final void P0(RecyclerView recyclerView, int i10) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:394:    public final void V0(RecyclerView recyclerView, h2 h2Var, int i10) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:458:    public final boolean Y(RecyclerView recyclerView, ArrayList arrayList, int i10, int i11) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:1453:                        h2 h2VarN = RecyclerView.N(viewW);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:2060:    public final boolean q0(RecyclerView recyclerView, View view, View view2) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/GridLayoutManager.java:2504:            RecyclerView recyclerView = this.f1590b;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/leanback/widget/HorizontalGridView.java:84:    @Override // androidx.recyclerview.widget.RecyclerView, android.view.View
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:9:public abstract class g implements Application.ActivityLifecycleCallbacks {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:10:    @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:11:    public void onActivityCreated(Activity activity, Bundle bundle) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:15:    @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:16:    public void onActivityDestroyed(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:20:    @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:21:    public void onActivityPaused(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:25:    @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:26:    public void onActivityResumed(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:30:    @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:31:    public void onActivitySaveInstanceState(Activity activity, Bundle outState) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:36:    @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:37:    public void onActivityStarted(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:41:    @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g.java:42:    public void onActivityStopped(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:4:import android.app.Fragment;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:22:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:23:        public void onActivityPostResumed(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:28:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:29:        public void onActivityPostStarted(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:45:    @Override // androidx.lifecycle.g, android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:46:    public void onActivityCreated(Activity activity, Bundle bundle) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:50:            Fragment fragmentFindFragmentByTag = activity.getFragmentManager().findFragmentByTag("androidx.lifecycle.LifecycleDispatcher.report_fragment_tag");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:51:            kotlin.jvm.internal.j.c(fragmentFindFragmentByTag, "null cannot be cast to non-null type androidx.lifecycle.ReportFragment");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:52:            ((i0) fragmentFindFragmentByTag).f696p = this.this$0.G;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:56:    @Override // androidx.lifecycle.g, android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:57:    public void onActivityPaused(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:69:    @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:70:    public void onActivityPreCreated(Activity activity, Bundle bundle) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:75:    @Override // androidx.lifecycle.g, android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/e0.java:76:    public void onActivityStopped(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/d0.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/d0.java:9:    public static final void a(Activity activity, e0.a aVar) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/d0.java:10:        activity.registerActivityLifecycleCallbacks(aVar);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:5:import android.app.Fragment;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:11:public class i0 extends Fragment {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:18:    public static final class a implements Application.ActivityLifecycleCallbacks {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:21:        public static final void registerIn(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:26:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:27:        public void onActivityCreated(Activity activity, Bundle bundle) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:31:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:32:        public void onActivityDestroyed(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:36:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:37:        public void onActivityPaused(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:41:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:42:        public void onActivityPostCreated(Activity activity, Bundle bundle) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:48:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:49:        public void onActivityPostResumed(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:55:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:56:        public void onActivityPostStarted(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:62:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:63:        public void onActivityPreDestroyed(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:69:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:70:        public void onActivityPrePaused(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:76:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:77:        public void onActivityPreStopped(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:83:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:84:        public void onActivityResumed(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:88:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:89:        public void onActivitySaveInstanceState(Activity activity, Bundle bundle) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:94:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:95:        public void onActivityStarted(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:99:        @Override // android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:100:        public void onActivityStopped(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:107:            Activity activity = getActivity();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:108:            kotlin.jvm.internal.j.d(activity, "getActivity(...)");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:113:    @Override // android.app.Fragment
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:114:    public final void onActivityCreated(Bundle bundle) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:115:        super.onActivityCreated(bundle);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:119:    @Override // android.app.Fragment
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:126:    @Override // android.app.Fragment
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:132:    @Override // android.app.Fragment
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:142:    @Override // android.app.Fragment
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/i0.java:158:    @Override // android.app.Fragment
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/h0.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/h0.java:9:    public static void a(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/h0.java:11:        activity.registerActivityLifecycleCallbacks(new i0.a());
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g0.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g0.java:4:import android.app.FragmentManager;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g0.java:12:    public static void a(Activity activity, m event) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g0.java:21:    public static void b(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g0.java:26:        FragmentManager fragmentManager = activity.getFragmentManager();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/g0.java:27:        if (fragmentManager.findFragmentByTag("androidx.lifecycle.LifecycleDispatcher.report_fragment_tag") == null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/q.java:3:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/q.java:9:    @Override // androidx.lifecycle.g, android.app.Application.ActivityLifecycleCallbacks
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/q.java:10:    public void onActivityCreated(Activity activity, Bundle bundle) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/a0.java:76:                throw new IllegalStateException("DialogFragment can not be attached to a container view");
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/a0.java:80:                    Log.d("FragmentManager", "DialogFragment " + z1Var + " setting the content view on " + qVar.G0);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/ProcessLifecycleInitializer.java:22:            ((Application) applicationContext).registerActivityLifecycleCallbacks(new q());
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/lifecycle/ProcessLifecycleInitializer.java:30:        ((Application) applicationContext2).registerActivityLifecycleCallbacks(new e0(f0Var));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:4:import android.app.Activity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:1253:    private static boolean isAppSpecificStorageFileUri(Activity activity, Uri uri) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:1344:    private static boolean isReadStoragePermissionRequestNeeded(Activity activity, Uri uri) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:1489:    public static boolean maybeRequestReadExternalStoragePermission(Activity activity, Uri... uriArr) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:1498:    public static boolean maybeRequestReadStoragePermission(Activity activity, MediaItem... mediaItemArr) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:1708:    private static boolean requestExternalStoragePermission(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:1716:    private static boolean requestReadMediaPermissions(Activity activity) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:2125:    public static boolean maybeRequestReadExternalStoragePermission(Activity activity, MediaItem... mediaItemArr) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/Util.java:2254:    private static boolean maybeRequestReadStoragePermission(Activity activity, Uri uri) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:11:import android.webkit.WebView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:21:import androidx.recyclerview.widget.RecyclerView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:26:import com.gunes.tv.MainActivity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:96:                        RecyclerView recyclerView = parent instanceof RecyclerView ? (RecyclerView) parent : null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:109:                WebView webView = i8Var.f11658c;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:113:                WebView webView2 = i8Var.f11658c;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:126:                MainActivity mainActivity = (MainActivity) this.B;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:129:                if (mainActivity.x().l()) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:130:                    if (mainActivity.f11129d0) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/f.java:142:                RecyclerView recyclerView2 = (RecyclerView) this.C;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/c.java:10:import androidx.recyclerview.widget.RecyclerView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/c.java:76:                RecyclerView recyclerView = parent instanceof RecyclerView ? (RecyclerView) parent : null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/c.java:95:                RecyclerView recyclerView2 = (RecyclerView) this.B;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/c.java:119:                            ((RecyclerView) k9Var.B).k0(i11);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/util/c.java:120:                            ((RecyclerView) k9Var.B).post(new androidx.media3.exoplayer.audio.b(bpVar, i11, 4));
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:23:import androidx.media3.extractor.mp4.FragmentedMp4Extractor;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:43:import com.gunes.tv.MainActivity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:170:                    Log.d("AddRadioListFragment", "Kalıcı izin URI için verildi: " + data2);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:172:                    Log.e("AddRadioListFragment", "URI için kalıcı izin alınamadı: " + data2, e11);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:250:                MainActivity mainActivity = iVarM instanceof MainActivity ? (MainActivity) iVarM : null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:254:                if (mainActivity != null && (arrayList2 = mainActivity.f11138o0) != null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:257:                if (mainActivity != null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:258:                    kd.j(mainActivity);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:290:                MainActivity mainActivity2 = iVarM2 instanceof MainActivity ? (MainActivity) iVarM2 : null;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:294:                if (mainActivity2 != null && (arrayList = mainActivity2.f11138o0) != null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:297:                if (mainActivity2 != null) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:298:                    kd.j(mainActivity2);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:322:        MainActivity mainActivity = (MainActivity) this.A;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:323:        mainActivity.v().edit().putBoolean("hasSupporterBadge", true).apply();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:324:        Toast.makeText(mainActivity, mainActivity.getString(com.gunes.tv.R.string.toast_support_thanks), 1).show();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/o.java:329:        ((FragmentedMp4Extractor) this.A).lambda$new$2(j, parsableByteArray);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:18:import android.webkit.WebView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:31:import androidx.recyclerview.widget.RecyclerView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:38:import com.gunes.tv.MainActivity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:39:import com.gunes.tv.SplashActivity;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:193:        SplashActivity splashActivity = (SplashActivity) this.A;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:195:        int i10 = SplashActivity.Z;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:196:        if (splashActivity.isFinishing()) {
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:199:        Intent intent = new Intent(splashActivity, (Class<?>) MainActivity.class);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:203:        Intent intent2 = splashActivity.getIntent();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:204:        String string = splashActivity.getString(com.gunes.tv.R.string.app_name);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:210:        splashActivity.startActivity(intent);
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:211:        splashActivity.finish();
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:399:        RecyclerView recyclerView;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:501:                    WebView webView = i8Var.f11658c;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:528:                WebView webView2 = i8Var2.f11658c;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:532:                WebView webView3 = i8Var2.f11658c;
+/data/data/com.termux/files/home/isa-tv-ham-inceleme/jadx/sources/androidx/media3/common/k.java:600:                                            if (!jd.l.D(str16, "Android WebView", true)) {
+
+========== APK PAKET BİLGİLERİ ==========
+--- /data/data/com.termux/files/home/isa-tv-ham-inceleme/splits/base.apk
+-rw-------. 1 u0_a385 u0_a385 39M Oct 29 22:12 /data/data/com.termux/files/home/isa-tv-ham-inceleme/splits/base.apk
+--- /storage/emulated/0/Download/Güneş TV_5.2.apks
+-rw-rw----. 1 root everybody 6.5M Oct 29 23:16 /storage/emulated/0/Download/Güneş TV_5.2.apks
+--- /storage/emulated/0/Download/Güneş TV_5.2-1.apks
+-rw-rw----. 1 root everybody 32M Oct 29 23:16 /storage/emulated/0/Download/Güneş TV_5.2-1.apks
+
+========== MEVCUT İSA TV KAYNAĞI ==========
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/README.md
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/8.13/checksums/checksums.lock
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/8.13/executionHistory/executionHistory.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/8.13/executionHistory/executionHistory.lock
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/8.13/fileChanges/last-build.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/8.13/fileHashes/fileHashes.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/8.13/fileHashes/fileHashes.lock
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/8.13/fileHashes/resourceHashesCache.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/8.13/gc.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/buildOutputCleanup/cache.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/buildOutputCleanup/outputFiles.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/.gradle/vcs-1/gc.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build.gradle
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/apk_ide_redirect_file/debug/createDebugApkListingFileRedirect/redirect.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/app_metadata/debug/writeDebugAppMetadata/app-metadata.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_0/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_1/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_2/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_3/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_64f44b73f8f596897be8328cf7d6d212df5698e3100bcf954a851a492c93bb2c_bucket_0/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_64f44b73f8f596897be8328cf7d6d212df5698e3100bcf954a851a492c93bb2c_bucket_1/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_64f44b73f8f596897be8328cf7d6d212df5698e3100bcf954a851a492c93bb2c_bucket_2/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_64f44b73f8f596897be8328cf7d6d212df5698e3100bcf954a851a492c93bb2c_bucket_3/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/dex_number_of_buckets_file/debug/dexBuilderDebug/out
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/debug-mergeJavaRes/merge-state
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/mergeDebugAssets/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/mergeDebugShaders/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/isatvhd/admin/MainActivity.class
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/merged_java_res/debug/mergeDebugJavaResource/base.jar
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/merged_manifests/debug/processDebugManifest/AndroidManifest.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/merged_manifests/debug/processDebugManifest/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/a07954af06f3acd82cabdf54f08bbe2cc36d224eabc52037e6a074e36f9007ee_1.jar
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/isatvhd/admin/MainActivity.dex
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/signing_config_versions/debug/writeDebugSigningConfigVersions/signing-config-versions.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/outputs/apk/debug/admin-app-debug.apk
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/outputs/apk/debug/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/outputs/logs/manifest-merger-debug-report.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/src/main/AndroidManifest.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/admin-app/src/main/java/com/isatvhd/admin/MainActivity.java
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/build.gradle
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/build/reports/problems/problems-report.html
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/gradle.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/local.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/local.properties.example
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/settings.gradle
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build.gradle
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/apk_ide_redirect_file/debug/createDebugApkListingFileRedirect/redirect.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/app_metadata/debug/writeDebugAppMetadata/app-metadata.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_0/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_1/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_2/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_3/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_a82ddfab32025bf3e854e1b51091d6145a71bcbcc02aed9b6888931199edd867_bucket_0/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_a82ddfab32025bf3e854e1b51091d6145a71bcbcc02aed9b6888931199edd867_bucket_1/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_a82ddfab32025bf3e854e1b51091d6145a71bcbcc02aed9b6888931199edd867_bucket_2/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_a82ddfab32025bf3e854e1b51091d6145a71bcbcc02aed9b6888931199edd867_bucket_3/graph.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/dex_number_of_buckets_file/debug/dexBuilderDebug/out
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/debug-mergeJavaRes/merge-state
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/mergeDebugAssets/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/mergeDebugShaders/merger.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/isatvhd/player/MainActivity$Result.class
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/isatvhd/player/MainActivity.class
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/merged_java_res/debug/mergeDebugJavaResource/base.jar
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/merged_manifests/debug/processDebugManifest/AndroidManifest.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/merged_manifests/debug/processDebugManifest/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/87ef0e95c9e335eec021d007e4741e4c73a2d99cca5d1c4d38e915b95146ad73_3.jar
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/isatvhd/player/MainActivity$Result.dex
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/isatvhd/player/MainActivity.dex
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/signing_config_versions/debug/writeDebugSigningConfigVersions/signing-config-versions.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/outputs/apk/debug/output-metadata.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/outputs/apk/debug/user-app-debug.apk
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/outputs/logs/manifest-merger-debug-report.txt
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/src/main/AndroidManifest.xml
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/android/user-app/src/main/java/com/isatvhd/player/MainActivity.java
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/build-termux.sh
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/docs/admin-user-create.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/docs/api.json
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/worker/bindings-note.md
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/worker/schema.sql
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/worker/src/index.js
+/data/data/com.termux/files/home/isa-tv-hd-tam-proje/isa_tv_hd_tam_proje/worker/wrangler.jsonc
+
+========== İNCELEME TAMAMLANDI ==========
