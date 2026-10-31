@@ -395,6 +395,7 @@ if (queueFile != null) {
                 boolean portraitLogo =
                         getResources().getConfiguration().orientation == 1;
 
+                boolean portraitLogo = isPortraitMode();
                 logo.setScaleType(ImageView.ScaleType.FIT_CENTER);
                 logo.setPadding(
                         portraitLogo ? 0 : dp(5),
@@ -409,15 +410,41 @@ if (queueFile != null) {
                         new FrameLayout.LayoutParams(
                                 portraitLogo ? dp(68) : dp(145),
                                 portraitLogo ? dp(42) : dp(90),
-                                Gravity.TOP | Gravity.RIGHT
-                        );
-
+                                Gravity.TOP | Gravity.RIGHT);
                 logoParams.setMargins(
                         0,
                         portraitLogo ? dp(8) : dp(18),
                         portraitLogo ? dp(8) : dp(22),
                         0);
-                root.addView(logo, logoParams);
+
+                View videoContent = playerView.getChildAt(0);
+                if (videoContent instanceof FrameLayout) {
+                    ((FrameLayout) videoContent).addView(logo, logoParams);
+
+                    // Yayının sol alt köşesindeki reklam/QR işaretini kapat.
+                    View cornerMask = new View(this);
+                    android.graphics.drawable.GradientDrawable mask =
+                            new android.graphics.drawable.GradientDrawable(
+                                    android.graphics.drawable.GradientDrawable.Orientation.TL_BR,
+                                    new int[] {
+                                            0xEE000000,
+                                            0xCC000000,
+                                            0x88000000
+                                    });
+                    mask.setCornerRadius(dp(7));
+                    cornerMask.setBackground(mask);
+                    cornerMask.setClickable(false);
+
+                    FrameLayout.LayoutParams maskParams =
+                            new FrameLayout.LayoutParams(
+                                    dp(34), dp(24),
+                                    Gravity.BOTTOM | Gravity.LEFT);
+                    maskParams.setMargins(dp(3), 0, 0, dp(3));
+                    ((FrameLayout) videoContent).addView(
+                            cornerMask, maskParams);
+                } else {
+                    root.addView(logo, logoParams);
+                }
 
             } catch (Exception e) {
                 Log.e(TAG, "Logo yüklenemedi", e);
@@ -927,7 +954,11 @@ private void showChannelList() {
 
     LinearLayout root = new LinearLayout(this);
     root.setOrientation(LinearLayout.VERTICAL);
-    root.setPadding(dp(14), dp(14), dp(14), dp(12));
+    root.setPadding(
+            dp(isPortraitMode() ? 14 : 8),
+            dp(isPortraitMode() ? 14 : 8),
+            dp(isPortraitMode() ? 14 : 8),
+            dp(isPortraitMode() ? 12 : 8));
     root.setBackgroundColor(Color.rgb(17, 21, 29));
 
     TextView title = new TextView(this);
@@ -981,7 +1012,7 @@ private void showChannelList() {
     search.setBackgroundColor(0xFF252E3C);
 
     LinearLayout.LayoutParams searchParams =
-            new LinearLayout.LayoutParams(-1, dp(46));
+            new LinearLayout.LayoutParams(-1, dp(isPortraitMode() ? 46 : 36));
     searchParams.topMargin = dp(10);
     searchParams.bottomMargin = dp(8);
     root.addView(search, searchParams);
@@ -1029,11 +1060,13 @@ private void showChannelList() {
                 row.setGravity(Gravity.CENTER_VERTICAL);
                 row.setOrientation(LinearLayout.HORIZONTAL);
                 row.setPadding(dp(10), dp(8), dp(10), dp(8));
-                row.setMinimumHeight(dp(66));
+                row.setMinimumHeight(dp(isPortraitMode() ? 60 : 32));
 
                 icon = new ImageView(PlayerActivity.this);
                 icon.setScaleType(ImageView.ScaleType.FIT_CENTER);
-                row.addView(icon, new LinearLayout.LayoutParams(dp(46), dp(46)));
+                row.addView(icon, new LinearLayout.LayoutParams(
+                        dp(isPortraitMode() ? 46 : 26),
+                        dp(isPortraitMode() ? 46 : 26)));
 
                 texts = new LinearLayout(PlayerActivity.this);
                 texts.setOrientation(LinearLayout.VERTICAL);
@@ -1041,13 +1074,13 @@ private void showChannelList() {
 
                 name = new TextView(PlayerActivity.this);
                 name.setTextColor(Color.WHITE);
-                name.setTextSize(14);
+                name.setTextSize(isPortraitMode() ? 14 : 12);
                 name.setMaxLines(1);
                 name.setEllipsize(android.text.TextUtils.TruncateAt.END);
 
                 subtitle = new TextView(PlayerActivity.this);
                 subtitle.setTextColor(0xFFAAAAAA);
-                subtitle.setTextSize(11);
+                subtitle.setTextSize(isPortraitMode() ? 11 : 9);
 
                 texts.addView(name);
                 texts.addView(subtitle);
@@ -1152,8 +1185,8 @@ private void showChannelList() {
     close.setOnClickListener(v -> dialog.dismiss());
 
     LinearLayout.LayoutParams closeParams =
-            new LinearLayout.LayoutParams(-1, dp(46));
-    closeParams.topMargin = dp(8);
+            new LinearLayout.LayoutParams(-1, dp(isPortraitMode() ? 46 : 34));
+    closeParams.topMargin = dp(4);
     root.addView(close, closeParams);
 
     updateList.run();
@@ -1173,9 +1206,17 @@ private void showChannelList() {
     if (dialog.getWindow() != null) {
         dialog.getWindow().setBackgroundDrawableResource(
                 android.R.color.transparent);
+        int screenWidth = getResources().getDisplayMetrics().widthPixels;
+        int screenHeight = getResources().getDisplayMetrics().heightPixels;
+        int panelWidth = isPortraitMode()
+                ? (int)(screenWidth * 0.94f)
+                : Math.min(dp(430), (int)(screenWidth * 0.42f));
+
         dialog.getWindow().setLayout(
-                (int)(getResources().getDisplayMetrics().widthPixels * 0.92f),
-                (int)(getResources().getDisplayMetrics().heightPixels * 0.82f));
+                panelWidth,
+                (int)(screenHeight * 0.96f));
+        dialog.getWindow().setGravity(
+                Gravity.LEFT | Gravity.CENTER_VERTICAL);
         dialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
         WindowManager.LayoutParams params = dialog.getWindow().getAttributes();
         params.dimAmount = 0.72f;
@@ -1211,6 +1252,49 @@ private void showChannelList() {
     protected void onSaveInstanceState(Bundle outState) {
         outState.putInt("isa_saved_channel_index", selectedIndex);
         super.onSaveInstanceState(outState);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+
+        // Mevcut ExoPlayer ve video yüzeyini değiştirme.
+        // Böylece yayın bağlantısı yeniden kurulmaz.
+        if (channelDialog != null && channelDialog.isShowing()) {
+            channelDialog.dismiss();
+        }
+
+        if (logo != null &&
+                logo.getLayoutParams() instanceof FrameLayout.LayoutParams) {
+            boolean portrait = isPortraitMode();
+
+            FrameLayout.LayoutParams lp =
+                    (FrameLayout.LayoutParams) logo.getLayoutParams();
+
+            lp.width = dp(portrait ? 68 : 145);
+            lp.height = dp(portrait ? 42 : 90);
+            lp.gravity = Gravity.TOP | Gravity.RIGHT;
+            lp.setMargins(
+                    0,
+                    dp(portrait ? 8 : 18),
+                    dp(portrait ? 8 : 22),
+                    0);
+
+            logo.setLayoutParams(lp);
+            logo.setPadding(
+                    portrait ? 0 : dp(5),
+                    portrait ? 0 : dp(5),
+                    portrait ? 0 : dp(5),
+                    portrait ? 0 : dp(5));
+            logo.setBackgroundColor(
+                    portrait ? Color.TRANSPARENT : 0x880F0F0F);
+        }
+
+        updatePortraitOverlay();
+        if (channelButton != null) {
+            channelButton.setVisibility(View.GONE);
+        }
+        applyImmersiveMode();
     }
 
     @Override
