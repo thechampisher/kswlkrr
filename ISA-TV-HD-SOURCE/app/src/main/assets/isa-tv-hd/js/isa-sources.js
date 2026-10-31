@@ -475,7 +475,8 @@ function normalizeVOD(data,result=[]) {
                   data.titleName || data.filename;
 
     const url = data.url || data.link || data.file ||
-                data.stream || data.playUrl || data.video;
+                data.stream || data.playUrl || data.video ||
+                data.videoUrl || data.video_url || data.embedUrl || '';
 
     const hasChildren =
         Array.isArray(data.episodes) ||
@@ -489,7 +490,7 @@ function normalizeVOD(data,result=[]) {
             title:String(title),
             url:url||'',
             videoUrl:data.videoUrl||'',
-            logo:data.poster||data.image||data.cover||data.thumbnail||'',
+            logo:data.poster||data.image||data.cover||data.thumbnail||data.thumb||'',
             poster:data.poster||data.image||data.cover||'',
             description:data.description||'',
             category:data.category||'',
@@ -762,13 +763,76 @@ function showEpisodes(episodes,series,provider) {
     });
 }
 
-function openVODItem(item) {
+
+async function resolveStaticMedia(page, depth=0, visited=new Set()) {
+    if (!isHttp(page) || depth > 2 || visited.has(page)) return null;
+    visited.add(page);
+
+    let html;
+    try {
+        html = await nativeFetch(page);
+    } catch (e) {
+        console.warn('VOD sayfası okunamadı:', e);
+        return null;
+    }
+
+    if (!html) return null;
+
+    const patterns = [
+        /<source[^>]+src=["']([^"']+\.(?:m3u8|mp4|webm)(?:\?[^"']*)?)["']/ig,
+        /<video[^>]+src=["']([^"']+\.(?:m3u8|mp4|webm)(?:\?[^"']*)?)["']/ig,
+        /(?:file|source|src|hls|playlist)\s*[:=]\s*["']([^"']+\.(?:m3u8|mp4|webm)(?:\?[^"']*)?)["']/ig,
+        /<meta[^>]+property=["']og:video["'][^>]+content=["']([^"']+)["']/ig
+    ];
+
+    for (const pattern of patterns) {
+        let match;
+        while ((match = pattern.exec(html)) !== null) {
+            try {
+                const candidate = new URL(
+                    match[1].replace(/&amp;/g,'&'),
+                    page
+                ).href;
+
+                if (isDirectMedia(candidate)) {
+                    return candidate;
+                }
+            } catch (e) {}
+        }
+    }
+
+    // Yalnızca sayfada açıkça belirtilmiş iframe adreslerini kontrol et.
+    const iframePattern = /<iframe[^>]+src=["']([^"']+)["']/ig;
+    let iframe;
+
+    while ((iframe = iframePattern.exec(html)) !== null) {
+        try {
+            const child = new URL(iframe[1],page).href;
+            if (!isHttp(child)) continue;
+
+            const found = await resolveStaticMedia(
+                child,
+                depth+1,
+                visited
+            );
+
+            if (found) return found;
+        } catch (e) {}
+    }
+
+    return null;
+}
+
+async function openVODItem(item) {
     const candidates = [
         item.videoUrl,
+        item.video_url,
         item.playUrl,
         item.stream,
         item.file,
-        item.url
+        item.url,
+        item.link,
+        item.embedUrl
     ].filter(Boolean);
 
     const media = candidates.find(isDirectMedia);
@@ -786,23 +850,47 @@ function openVODItem(item) {
 
     const page = candidates.find(isHttp);
 
-    if (page) {
-        const area = document.getElementById('isa-vod-items');
-        area.insertAdjacentHTML('afterbegin',`
-            <div class="isa-vod-note">
-                <strong>Bu içerik doğrudan video bağlantısı değil.</strong><br>
-                Kaynak bir web sayfası adresi sağlıyor. Bu adres ExoPlayer'a gönderilmedi.
-                <br><br>
-                <button class="isa-action" id="isa-open-source-page">
-                    Kaynak sayfasını aç
-                </button>
-            </div>
-        `);
-        document.getElementById('isa-open-source-page').onclick = () => openPage(page);
+    if (!page) {
+        alert('Bu içerik için geçerli bir bağlantı bulunamadı.');
         return;
     }
 
-    alert('Bu içerik için doğrudan medya bağlantısı bulunamadı.');
+    const area = document.getElementById('isa-vod-items');
+    const note = document.createElement('p');
+    note.className = 'isa-vod-note';
+    note.textContent = 'Video kaynağı aranıyor...';
+    area.prepend(note);
+
+    try {
+        const resolved = await resolveStaticMedia(page);
+
+        note.remove();
+
+        if (!resolved) {
+            alert(
+                'Bu kaynağın sayfasında doğrudan ve erişilebilir ' +
+                'bir video adresi bulunamadı. Kaynak dinamik oynatıcı ' +
+                'veya erişim koruması kullanıyor olabilir.'
+            );
+            return;
+        }
+
+        play({
+            name:item.title||item.name||'İSA Flix',
+            url:resolved,
+            logo:item.poster||item.logo||'',
+            group:'İSA Flix',
+            headers:{
+                ...(item.headers||{}),
+                Referer:page
+            }
+        },[],0);
+
+    } catch (error) {
+        note.remove();
+        console.error('VOD çözümleme hatası:',error);
+        alert('Video kaynağı çözümlenemedi: '+error.message);
+    }
 }
 
 async function refreshAll(forceRefresh=false) {
