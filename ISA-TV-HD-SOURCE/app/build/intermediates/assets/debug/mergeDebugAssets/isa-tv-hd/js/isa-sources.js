@@ -126,16 +126,18 @@ function isHttp(url) {
     return /^https?:\/\//i.test(String(url||''));
 }
 
+
 function isDirectMedia(url) {
     if (!isHttp(url)) return false;
-
     try {
         const path = new URL(url).pathname.toLowerCase();
-        return /\.(m3u8|mp4|mpd|mp3|m4a|aac|ts|mkv|webm|m4v|mov|ogg|flv)$/i.test(path);
+        return /\.(m3u8|mp4|mpd|mp3|m4a|aac|ts|mkv|webm|m4v|mov|ogg|flv|mpeg|mpg|3gp|avi)$/i.test(path);
     } catch(e) {
         return false;
     }
 }
+
+
 
 function parseM3U(text,prefix) {
     const lines = String(text||'').replace(/^\uFEFF/,'').split(/\r?\n/);
@@ -463,6 +465,7 @@ async function loadVOD(forceRefresh=false) {
  * JSON nesnelerini düzleştirmeden korur.
  * Dizi nesnesinin episodes/seasons yapısı kaybolmaz.
  */
+
 function normalizeVOD(data,result=[]) {
     if (Array.isArray(data)) {
         data.forEach(item => normalizeVOD(item,result));
@@ -472,33 +475,37 @@ function normalizeVOD(data,result=[]) {
     if (!data || typeof data !== 'object') return result;
 
     const title = data.title || data.name || data.baslik ||
-                  data.titleName || data.filename;
+                  data.titleName || data.filename || data.original_title;
 
     const url = data.url || data.link || data.file ||
-                data.stream || data.playUrl || data.video;
+                data.stream || data.playUrl || data.video ||
+                data.videoUrl || data.video_url || data.embedUrl || '';
 
-    const hasChildren =
-        Array.isArray(data.episodes) ||
-        Array.isArray(data.seasons) ||
-        Array.isArray(data.items);
+    const episodes = Array.isArray(data.episodes) ? data.episodes : [];
+    const seasons = Array.isArray(data.seasons) ? data.seasons : [];
+    const items = Array.isArray(data.items) ? data.items : [];
 
-    if (title && (url || hasChildren)) {
+    if (title && (url || episodes.length || seasons.length || items.length ||
+                  String(data.type || '').toLowerCase().includes('dizi') ||
+                  String(data.type || '').toLowerCase().includes('series'))) {
         result.push({
-            type:String(data.type||'').toLowerCase(),
+            type:String(data.type || '').toLowerCase(),
             name:String(title),
             title:String(title),
-            url:url||'',
-            videoUrl:data.videoUrl||'',
-            logo:data.poster||data.image||data.cover||data.thumbnail||'',
-            poster:data.poster||data.image||data.cover||'',
-            description:data.description||'',
-            category:data.category||'',
+            url:url,
+            videoUrl:data.videoUrl || data.video_url || '',
+            logo:data.poster || data.image || data.cover ||
+                 data.thumbnail || data.thumb || '',
+            poster:data.poster || data.image || data.cover ||
+                   data.thumbnail || '',
+            description:data.description || '',
+            category:data.category || '',
             genres:Array.isArray(data.genres) ? data.genres : [],
-            year:data.year||'',
-            platform:data.platform||'',
-            episodes:Array.isArray(data.episodes) ? data.episodes : [],
-            seasons:Array.isArray(data.seasons) ? data.seasons : [],
-            items:Array.isArray(data.items) ? data.items : [],
+            year:data.year || '',
+            platform:data.platform || '',
+            episodes:episodes,
+            seasons:seasons,
+            items:items,
             raw:data
         });
         return result;
@@ -511,12 +518,16 @@ function normalizeVOD(data,result=[]) {
     return result;
 }
 
+
+
+
 function itemIsSeries(item) {
-    return item.episodes.length > 0 ||
-           item.seasons.length > 0 ||
-           item.type.includes('dizi') ||
-           item.type.includes('series');
+    return (Array.isArray(item.episodes) && item.episodes.length > 0) ||
+           (Array.isArray(item.seasons) && item.seasons.length > 0) ||
+           String(item.type || '').includes('dizi') ||
+           String(item.type || '').includes('series');
 }
+
 
 
 function showVODProviders() {
@@ -616,32 +627,42 @@ async function openVODProvider(provider) {
     } catch(error) {
         area.innerHTML = `
             <div class="isa-vod-toolbar">
-                <button class="isa-back" onclick="showVODProviders()">
+                <button class="isa-back" id="isa-vod-error-back">
                     <i class="fas fa-arrow-left"></i> Geri
                 </button>
                 <h2>${esc(providerName(provider))}</h2>
             </div>
             <p class="isa-vod-note">Kaynak okunamadı: ${esc(error.message)}</p>
         `;
+        const back = document.getElementById('isa-vod-error-back');
+        if (back) back.onclick = showVODProviders;
     }
 }
+
 
 function seasonNumber(item) {
-    if (item.season != null) return Number(item.season);
-    if (item.season_number != null) return Number(item.season_number);
-
-    const title = item.title||item.name||'';
-
-    // Önce "2.Sezon 1.Bölüm" biçimini kontrol et.
-    let match = title.match(/(?:^|\b)(\d+)\s*\.?\s*(?:sezon|season)\b/i);
-
-    // Ardından "Season 2" biçimini kontrol et.
-    if (!match) {
-        match = title.match(/(?:season|sezon|s)\s*0*(\d+)/i);
+    const explicit = item.season_number ?? item.season;
+    if (explicit !== undefined && explicit !== null &&
+        Number.isFinite(Number(explicit))) {
+        return Number(explicit);
     }
 
-    return match ? Number(match[1]) : 1;
+    const title = String(item.title || item.name || '');
+    const patterns = [
+        /(?:^|\b)(\d+)\s*\.?\s*(?:sezon|season)\b/i,
+        /(?:season|sezon)\s*0*(\d+)/i,
+        /\bS0*(\d+)E0*\d+\b/i,
+        /\b0*(\d+)x0*\d+\b/i
+    ];
+
+    for (const pattern of patterns) {
+        const match = title.match(pattern);
+        if (match) return Number(match[1]);
+    }
+    return 1;
 }
+
+
 
 function showSeries(series,provider) {
     const area = document.getElementById('isa-vod-items');
@@ -762,13 +783,76 @@ function showEpisodes(episodes,series,provider) {
     });
 }
 
-function openVODItem(item) {
+
+async function resolveStaticMedia(page, depth=0, visited=new Set()) {
+    if (!isHttp(page) || depth > 2 || visited.has(page)) return null;
+    visited.add(page);
+
+    let html;
+    try {
+        html = await nativeFetch(page);
+    } catch (e) {
+        console.warn('VOD sayfası okunamadı:', e);
+        return null;
+    }
+
+    if (!html) return null;
+
+    const patterns = [
+        /<source[^>]+src=["']([^"']+\.(?:m3u8|mp4|webm)(?:\?[^"']*)?)["']/ig,
+        /<video[^>]+src=["']([^"']+\.(?:m3u8|mp4|webm)(?:\?[^"']*)?)["']/ig,
+        /(?:file|source|src|hls|playlist)\s*[:=]\s*["']([^"']+\.(?:m3u8|mp4|webm)(?:\?[^"']*)?)["']/ig,
+        /<meta[^>]+property=["']og:video["'][^>]+content=["']([^"']+)["']/ig
+    ];
+
+    for (const pattern of patterns) {
+        let match;
+        while ((match = pattern.exec(html)) !== null) {
+            try {
+                const candidate = new URL(
+                    match[1].replace(/&amp;/g,'&'),
+                    page
+                ).href;
+
+                if (isDirectMedia(candidate)) {
+                    return candidate;
+                }
+            } catch (e) {}
+        }
+    }
+
+    // Yalnızca sayfada açıkça belirtilmiş iframe adreslerini kontrol et.
+    const iframePattern = /<iframe[^>]+src=["']([^"']+)["']/ig;
+    let iframe;
+
+    while ((iframe = iframePattern.exec(html)) !== null) {
+        try {
+            const child = new URL(iframe[1],page).href;
+            if (!isHttp(child)) continue;
+
+            const found = await resolveStaticMedia(
+                child,
+                depth+1,
+                visited
+            );
+
+            if (found) return found;
+        } catch (e) {}
+    }
+
+    return null;
+}
+
+async function openVODItem(item) {
     const candidates = [
         item.videoUrl,
+        item.video_url,
         item.playUrl,
         item.stream,
         item.file,
-        item.url
+        item.url,
+        item.link,
+        item.embedUrl
     ].filter(Boolean);
 
     const media = candidates.find(isDirectMedia);
@@ -786,23 +870,47 @@ function openVODItem(item) {
 
     const page = candidates.find(isHttp);
 
-    if (page) {
-        const area = document.getElementById('isa-vod-items');
-        area.insertAdjacentHTML('afterbegin',`
-            <div class="isa-vod-note">
-                <strong>Bu içerik doğrudan video bağlantısı değil.</strong><br>
-                Kaynak bir web sayfası adresi sağlıyor. Bu adres ExoPlayer'a gönderilmedi.
-                <br><br>
-                <button class="isa-action" id="isa-open-source-page">
-                    Kaynak sayfasını aç
-                </button>
-            </div>
-        `);
-        document.getElementById('isa-open-source-page').onclick = () => openPage(page);
+    if (!page) {
+        alert('Bu içerik için geçerli bir bağlantı bulunamadı.');
         return;
     }
 
-    alert('Bu içerik için doğrudan medya bağlantısı bulunamadı.');
+    const area = document.getElementById('isa-vod-items');
+    const note = document.createElement('p');
+    note.className = 'isa-vod-note';
+    note.textContent = 'Video kaynağı aranıyor...';
+    area.prepend(note);
+
+    try {
+        const resolved = await resolveStaticMedia(page);
+
+        note.remove();
+
+        if (!resolved) {
+            alert(
+                'Bu kaynağın sayfasında doğrudan ve erişilebilir ' +
+                'bir video adresi bulunamadı. Kaynak dinamik oynatıcı ' +
+                'veya erişim koruması kullanıyor olabilir.'
+            );
+            return;
+        }
+
+        play({
+            name:item.title||item.name||'İSA Flix',
+            url:resolved,
+            logo:item.poster||item.logo||'',
+            group:'İSA Flix',
+            headers:{
+                ...(item.headers||{}),
+                Referer:page
+            }
+        },[],0);
+
+    } catch (error) {
+        note.remove();
+        console.error('VOD çözümleme hatası:',error);
+        alert('Video kaynağı çözümlenemedi: '+error.message);
+    }
 }
 
 async function refreshAll(forceRefresh=false) {

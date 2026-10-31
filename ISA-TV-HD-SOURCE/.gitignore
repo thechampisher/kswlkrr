@@ -1,0 +1,10 @@
+app/build/
+.gradle/
+
+# Android build çıktıları
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.DS_Store

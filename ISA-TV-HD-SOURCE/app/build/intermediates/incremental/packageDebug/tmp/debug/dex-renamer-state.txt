@@ -1,8 +1,8 @@
-#Sat Oct 31 12:21:05 GMT 2026
-base.0=/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
-base.3=/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Sat Oct 31 13:28:20 GMT 2026
+base.0=/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+base.3=/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=6/classes.dex

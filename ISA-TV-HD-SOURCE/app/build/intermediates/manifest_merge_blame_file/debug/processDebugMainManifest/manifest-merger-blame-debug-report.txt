@@ -9,11 +9,11 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:3:5-67
-11-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:3:22-64
+11-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:3:5-67
+11-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:3:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:4:5-79
-12-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:4:22-76
+12-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:4:5-79
+12-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:4:22-76
 13
 14    <permission
 14-->[androidx.core:core:1.13.0] /data/data/com.termux/files/home/.gradle/caches/9.6.0/transforms/3f3017fc4f4f06b45931d5652c6ff987/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
@@ -27,52 +27,52 @@
 18-->[androidx.core:core:1.13.0] /data/data/com.termux/files/home/.gradle/caches/9.6.0/transforms/3f3017fc4f4f06b45931d5652c6ff987/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:6:5-33:19
+20-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:6:5-33:19
 21        android:allowBackup="false"
-21-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:7:9-36
+21-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:7:9-36
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.13.0] /data/data/com.termux/files/home/.gradle/caches/9.6.0/transforms/3f3017fc4f4f06b45931d5652c6ff987/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:icon="@drawable/logo"
-25-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:9:9-38
+25-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:9:9-38
 26        android:label="İSA TV HD"
-26-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:8:9-34
+26-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:8:9-34
 27        android:theme="@style/AppTheme"
-27-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:10:9-40
+27-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:10:9-40
 28        android:usesCleartextTraffic="true" >
-28-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:11:9-44
+28-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:11:9-44
 29        <activity
-29-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:13:9-15:102
+29-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:13:9-15:102
 30            android:name="com.isatvhd.player.PlayerActivity"
-30-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:14:13-43
+30-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:14:13-43
 31            android:configChanges="orientation|screenSize|keyboardHidden"
-31-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:15:38-99
+31-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:15:38-99
 32            android:exported="false" />
-32-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:15:13-37
+32-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:15:13-37
 33        <activity
-33-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:17:9-19:40
+33-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:17:9-19:40
 34            android:name="com.isatvhd.player.MainActivity"
-34-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:18:13-41
+34-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:18:13-41
 35            android:exported="false" />
-35-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:19:13-37
+35-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:19:13-37
 36        <activity
-36-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:21:9-31:20
+36-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:21:9-31:20
 37            android:name="com.isatvhd.player.SplashActivity"
-37-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:22:13-43
+37-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:22:13-43
 38            android:exported="true"
-38-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:23:13-36
+38-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:23:13-36
 39            android:theme="@style/SplashTheme" >
-39-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:24:13-47
+39-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:24:13-47
 40            <intent-filter>
-40-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:26:13-29:29
+40-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:26:13-29:29
 41                <action android:name="android.intent.action.MAIN" />
-41-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:27:17-69
-41-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:27:25-66
+41-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:27:17-69
+41-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:27:25-66
 42
 43                <category android:name="android.intent.category.LAUNCHER" />
-43-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:28:17-77
-43-->/data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/AndroidManifest.xml:28:27-74
+43-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:28:17-77
+43-->/data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/AndroidManifest.xml:28:27-74
 44            </intent-filter>
 45        </activity>
 46

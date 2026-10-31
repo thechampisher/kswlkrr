@@ -29,10 +29,10 @@ com.isatvhd.player.app-lifecycle-livedata-core-2.6.2-27 /data/data/com.termux/fi
 com.isatvhd.player.app-constraintlayout-2.0.1-28 /data/data/com.termux/files/home/.gradle/caches/9.6.0/transforms/cfbd3d38825663a23df285ebde16526f/transformed/constraintlayout-2.0.1/res
 com.isatvhd.player.app-core-runtime-2.2.0-29 /data/data/com.termux/files/home/.gradle/caches/9.6.0/transforms/d57dc439651d87e89a59cbacd568f11c/transformed/core-runtime-2.2.0/res
 com.isatvhd.player.app-media-1.7.0-30 /data/data/com.termux/files/home/.gradle/caches/9.6.0/transforms/e9962e74222906429e28006d230ae87c/transformed/media-1.7.0/res
-com.isatvhd.player.app-pngs-31 /data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/build/generated/res/pngs/debug
-com.isatvhd.player.app-resValues-32 /data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/build/generated/res/resValues/debug
-com.isatvhd.player.app-packageDebugResources-33 /data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.isatvhd.player.app-packageDebugResources-34 /data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.isatvhd.player.app-debug-35 /data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.isatvhd.player.app-debug-36 /data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/debug/res
-com.isatvhd.player.app-main-37 /data/data/com.termux/files/home/ISA-TV-HD-RECOVERY/app/src/main/res
+com.isatvhd.player.app-pngs-31 /data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/build/generated/res/pngs/debug
+com.isatvhd.player.app-resValues-32 /data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/build/generated/res/resValues/debug
+com.isatvhd.player.app-packageDebugResources-33 /data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.isatvhd.player.app-packageDebugResources-34 /data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.isatvhd.player.app-debug-35 /data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.isatvhd.player.app-debug-36 /data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/debug/res
+com.isatvhd.player.app-main-37 /data/data/com.termux/files/home/kswlkrr-upload/ISA-TV-HD-SOURCE/app/src/main/res
