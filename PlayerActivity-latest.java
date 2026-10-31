@@ -392,19 +392,31 @@ if (queueFile != null) {
                     );
                 }
 
+                boolean portraitLogo =
+                        getResources().getConfiguration().orientation == 1;
+
                 logo.setScaleType(ImageView.ScaleType.FIT_CENTER);
-                logo.setPadding(dp(5), dp(5), dp(5), dp(5));
-                logo.setBackgroundColor(0x880F0F0F);
+                logo.setPadding(
+                        portraitLogo ? 0 : dp(5),
+                        portraitLogo ? 0 : dp(5),
+                        portraitLogo ? 0 : dp(5),
+                        portraitLogo ? 0 : dp(5));
+                logo.setBackgroundColor(
+                        portraitLogo ? Color.TRANSPARENT : 0x880F0F0F);
                 logo.setContentDescription("İSA TV HD");
 
                 FrameLayout.LayoutParams logoParams =
                         new FrameLayout.LayoutParams(
-                                dp(145),
-                                dp(90),
+                                portraitLogo ? dp(68) : dp(145),
+                                portraitLogo ? dp(42) : dp(90),
                                 Gravity.TOP | Gravity.RIGHT
                         );
 
-                logoParams.setMargins(0, dp(18), dp(22), 0);
+                logoParams.setMargins(
+                        0,
+                        portraitLogo ? dp(8) : dp(18),
+                        portraitLogo ? dp(8) : dp(22),
+                        0);
                 root.addView(logo, logoParams);
 
             } catch (Exception e) {
