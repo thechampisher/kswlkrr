@@ -1,0 +1,1598 @@
+===== FETCH JAVASCRIPT KULLANIMI =====
+app/src/main/assets/isa-tv-hd/js/homepage.js:449:        if (window.ISATV && typeof window.ISATV.play === 'function') {
+app/src/main/assets/isa-tv-hd/js/homepage.js:450:            window.ISATV.play(
+app/src/main/assets/isa-tv-hd/js/isa-sources.js:30:window.__isaFetchDone = function(id,value,error) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js:65:    if (!window.ISATV || !window.ISATV.fetchText) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js:75:        window.ISATV.fetchText(url,String(id));
+app/src/main/assets/isa-tv-hd/js/isa-sources.js:199:    if (window.ISATV && window.ISATV.play) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js:200:        window.ISATV.play(
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak-20261031-133250:30:window.__isaFetchDone = function(id,value,error) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak-20261031-133250:65:    if (!window.ISATV || !window.ISATV.fetchText) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak-20261031-133250:75:        window.ISATV.fetchText(url,String(id));
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak-20261031-133250:197:    if (window.ISATV && window.ISATV.play) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak-20261031-133250:198:        window.ISATV.play(
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.backup:30:window.__isaFetchDone = function(id,value,error) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.backup:65:    if (!window.ISATV || !window.ISATV.fetchText) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.backup:75:        window.ISATV.fetchText(url,String(id));
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.backup:197:    if (window.ISATV && window.ISATV.play) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.backup:198:        window.ISATV.play(
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak:30:window.__isaFetchDone = function(id,value,error) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak:65:    if (!window.ISATV || !window.ISATV.fetchText) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak:75:        window.ISATV.fetchText(url,String(id));
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak:197:    if (window.ISATV && window.ISATV.play) {
+app/src/main/assets/isa-tv-hd/js/isa-sources.js.bak:198:        window.ISATV.play(
+
+===== MAINACTIVITY WEBVIEW VE BRIDGE =====
+58-
+59-        WebSettings settings = webView.getSettings();
+60-        settings.setJavaScriptEnabled(true);
+61-        settings.setDomStorageEnabled(true);
+62-        settings.setDatabaseEnabled(true);
+63-        settings.setAllowFileAccess(true);
+64-        settings.setAllowContentAccess(true);
+65-        settings.setJavaScriptCanOpenWindowsAutomatically(true);
+66-        settings.setMediaPlaybackRequiresUserGesture(false);
+67-        settings.setMixedContentMode(
+68-                WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+69-        settings.setLoadsImagesAutomatically(true);
+70-        settings.setUseWideViewPort(true);
+71-        settings.setLoadWithOverviewMode(true);
+72-
+73:        webView.addJavascriptInterface(new ISATVBridge(), "ISATV");
+74-
+75-        webView.setWebViewClient(new WebViewClient() {
+76-            @Override
+77-            public void onPageFinished(WebView view, String url) {
+78-                super.onPageFinished(view, url);
+79-                view.evaluateJavascript(
+80-                        "(function(){"
+81-                        + "document.querySelectorAll("
+82-                        + "'.splash-screen,#splash-screen,"
+83-                        + ".splash-overlay,.splash-loader')"
+84-                        + ".forEach(function(e){e.style.display='none';});"
+85-                        + "})();",
+86-                        null
+87-                );
+88-            }
+89-        });
+90-
+91-        webView.setWebChromeClient(new WebChromeClient() {
+92-            @Override
+93-            public boolean onShowFileChooser(
+94-                    WebView view,
+95-                    ValueCallback<Uri[]> callback,
+96-                    FileChooserParams params) {
+97-
+98-                if (fileCallback != null) {
+99-                    fileCallback.onReceiveValue(null);
+100-                }
+101-
+102-                fileCallback = callback;
+103-
+
+===== PLAYER ALANLARI VE ZAMANLAYICILAR =====
+package com.isatvhd.player;
+
+import android.app.Activity;
+import android.widget.LinearLayout;
+import android.graphics.drawable.GradientDrawable;
+import android.widget.BaseAdapter;
+import android.widget.ListView;
+import android.app.Dialog;
+import android.app.AlertDialog;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.graphics.Color;
+import android.graphics.BitmapFactory;
+import android.content.res.Configuration;
+import android.view.Gravity;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.FrameLayout;
+import android.widget.TextView;
+import android.widget.ImageView;
+import android.widget.Button;
+import android.widget.EditText;
+import android.net.Uri;
+import android.util.Log;
+
+import androidx.media3.common.MediaItem;
+import androidx.media3.common.PlaybackException;
+import androidx.media3.common.Player;
+import androidx.media3.datasource.DefaultHttpDataSource;
+import androidx.media3.exoplayer.ExoPlayer;
+import androidx.media3.ui.PlayerView;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+public class PlayerActivity extends Activity {
+
+    private static final String TAG = "ISATVPlayer";
+
+    private ExoPlayer player;
+
+    private final Map<Integer, ExoPlayer> preloadedPlayers =
+            new HashMap<>();
+
+    private final ArrayList<ExoPlayer> standbyPlayers =
+            new ArrayList<>();
+    private PlayerView playerView;
+    private TextView status;
+    private Button channelButton;
+    private TextView portraitChannelName;
+    private TextView portraitLiveBadge;
+    private LinearLayout portraitPanel;
+    private Button favoriteButton;
+private Dialog channelDialog;
+    private ImageView logo;
+    private android.widget.ProgressBar loadingSpinner;
+    private final Runnable hideChannelButton = () -> {
+        if (channelButton != null) channelButton.setVisibility(View.GONE);
+    };
+
+    private final Handler handler =
+            new Handler(Looper.getMainLooper());
+
+    private final ArrayList<Channel> channels =
+            new ArrayList<>();
+
+    private int selectedIndex = 0;
+    private boolean channelTransitioning = false;
+
+    private static class Channel {
+        String name;
+        String url;
+        String group;
+        String logo;
+        Map<String, String> headers = new HashMap<>();
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        getWindow().addFlags(
+                WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON
+        );
+
+        String queueJson = getIntent().getStringExtra("queue_json");
+
+String queueFile = getIntent().getStringExtra("queue_file");
+
+if (queueFile != null) {
+    try (java.io.FileInputStream input =
+                 new java.io.FileInputStream(queueFile)) {
+
+        java.io.ByteArrayOutputStream bytes =
+                new java.io.ByteArrayOutputStream();
+
+        byte[] buffer = new byte[8192];
+        int count;
+
+        while ((count = input.read(buffer)) != -1) {
+            bytes.write(buffer, 0, count);
+        }
+
+        queueJson = bytes.toString("UTF-8");
+
+    } catch (Exception e) {
+        android.util.Log.e("ISATV", "Kanal listesi okunamadı", e);
+        queueJson = "[]";
+    }
+}
+
+        selectedIndex =
+                getIntent().getIntExtra("selected_index", 0);
+
+        // Ekran döndürülünce son izlenen kanalı geri yükle.
+        if (savedInstanceState != null) {
+            selectedIndex = savedInstanceState.getInt(
+                    "isa_saved_channel_index", selectedIndex);
+        }
+
+        // Ekran döndüğünde son izlenen kanalı koru.
+        if (savedInstanceState != null) {
+            selectedIndex = savedInstanceState.getInt(
+                    "isa_saved_channel_index", selectedIndex);
+        }
+
+        try {
+            JSONArray array = new JSONArray(
+                    queueJson == null ? "[]" : queueJson
+            );
+
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject object = array.getJSONObject(i);
+
+                Channel channel = new Channel();
+                channel.name = object.optString("name", "İsimsiz kanal");
+                channel.url = object.optString("url", "");
+                channel.group = object.optString("group", "Genel");
+                channel.logo = object.optString("logo", "");
+
+                JSONObject h = object.optJSONObject("headers");
+
+                if (h != null) {
+                    Iterator<String> keys = h.keys();
+
+                    while (keys.hasNext()) {
+                        String key = keys.next();
+                        String value = h.optString(key, "");
+
+                        if (!value.isEmpty() &&
+                                key.matches("(?i)user-agent|referer|origin")) {
+                            channel.headers.put(key, value);
+                        }
+                    }
+                }
+
+                if (channel.url.matches("(?i)^https?://.*")) {
+                    channels.add(channel);
+                }
+            }
+
+        } catch (Exception e) {
+            Log.e(TAG, "Kanal listesi okunamadı", e);
+        }
+
+        if (channels.isEmpty()) {
+            Channel single = new Channel();
+            single.name = getIntent().getStringExtra("channel_name");
+            single.url = getIntent().getStringExtra("stream_url");
+
+            if (single.name == null) single.name = "İSA TV HD";
+
+            String json = getIntent().getStringExtra("headers_json");
+
+            try {
+                JSONObject h = new JSONObject(json == null ? "{}" : json);
+                Iterator<String> keys = h.keys();
+
+                while (keys.hasNext()) {
+                    String key = keys.next();
+                    single.headers.put(key, h.optString(key, ""));
+                }
+            } catch (Exception ignored) {
+            }
+
+            if (single.url != null) channels.add(single);
+        }
+
+        if (channels.isEmpty()) {
+            finish();
+            return;
+        }
+
+        if (selectedIndex < 0 || selectedIndex >= channels.size()) {
+            selectedIndex = 0;
+        }
+
+        createInterface();
+        initializePlayer();
+        playSelected();
+    }
+
+
+    private void applyImmersiveMode() {
+
+===== PLAYER PRELOAD VE CHANNEL PREPARE =====
+529-            @Override
+530-            public void onPlayerError(PlaybackException error) {
+531-                Log.e(TAG, "Oynatıcı hatası: "
+532-                        + error.getErrorCodeName(), error);
+533-
+534-                if (p == player) {
+535-                    status.setVisibility(View.GONE);
+536-                    loadingSpinner.setVisibility(View.GONE);
+537-                }
+538-            }
+539-        });
+540-
+541-        return p;
+542-    }
+543-
+544:    private void prepareChannel(ExoPlayer target, int index,
+545-                               boolean preload) {
+546-        if (index < 0 || index >= channels.size()) return;
+547-
+548-        Channel channel = channels.get(index);
+549-
+550-        try {
+551-            DefaultHttpDataSource.Factory factory =
+552-                    new DefaultHttpDataSource.Factory()
+553-                            .setUserAgent(
+554-                                    channel.headers.containsKey("User-Agent")
+555-                                    ? channel.headers.get("User-Agent")
+556-                                    : "Mozilla/5.0 (Linux; Android 11) "
+557-                                    + "AppleWebKit/537.36 Chrome/120 Safari/537.36"
+558-                            )
+559-                            .setConnectTimeoutMs(15000)
+560-                            .setReadTimeoutMs(25000)
+561-                            .setAllowCrossProtocolRedirects(true)
+562-                            .setDefaultRequestProperties(channel.headers);
+563-
+564-            MediaItem item = new MediaItem.Builder()
+565-                    .setUri(Uri.parse(channel.url))
+566-                    .setMediaId(channel.name == null
+567-                            ? channel.url : channel.name)
+568-                    .build();
+569-
+570-            target.stop();
+571-            target.clearMediaItems();
+572-
+573-            target.setVolume(preload ? 0f : 1f);
+574-
+575-            target.setTrackSelectionParameters(
+576-                    target.getTrackSelectionParameters()
+577-                            .buildUpon()
+578-                            .setMaxVideoBitrate(
+579-                                    preload ? 1500000 : Integer.MAX_VALUE
+580-                            )
+581-                            .build()
+582-            );
+583-
+584-            target.setMediaSource(
+585-                    new androidx.media3.exoplayer.source.DefaultMediaSourceFactory(
+586-                            factory
+587-                    ).createMediaSource(item)
+588-            );
+589-
+590-            target.prepare();
+591-            target.setPlayWhenReady(!preload);
+592-
+593-        } catch (Exception e) {
+594-            Log.e(TAG, "Kanal hazırlanamadı: " + index, e);
+595-        }
+596-    }
+597-
+598:    private ExoPlayer obtainStandbyPlayer() {
+599-        if (!standbyPlayers.isEmpty()) {
+600-            return standbyPlayers.remove(standbyPlayers.size() - 1);
+601-        }
+602-
+603-        return createManagedPlayer(true);
+604-    }
+605-
+606:    private void recyclePlayer(ExoPlayer p) {
+607-        if (p == null || p == player) return;
+608-
+609-        p.setPlayWhenReady(false);
+610-        p.stop();
+611-        p.clearMediaItems();
+612-        p.setVolume(0f);
+613-
+614-        if (!standbyPlayers.contains(p) && standbyPlayers.size() < 2) {
+615-            standbyPlayers.add(p);
+616-        } else if (!standbyPlayers.contains(p)) {
+617-            p.release();
+618-        }
+619-    }
+620-
+621:    private void prepareNeighborChannels() {
+622-        if (channels.size() < 2 || player == null) return;
+623-
+624-        int previous = (selectedIndex - 1 + channels.size())
+625-                % channels.size();
+626-
+627-        int next = (selectedIndex + 1) % channels.size();
+628-
+629-        java.util.HashSet<Integer> wanted = new java.util.HashSet<>();
+630-        wanted.add(previous);
+631-        wanted.add(next);
+632-        wanted.remove(selectedIndex);
+633-
+634-        java.util.Iterator<Map.Entry<Integer, ExoPlayer>> iterator =
+635-                preloadedPlayers.entrySet().iterator();
+636-
+637-        while (iterator.hasNext()) {
+638-            Map.Entry<Integer, ExoPlayer> entry = iterator.next();
+639-
+640-            if (!wanted.contains(entry.getKey())) {
+641-                ExoPlayer old = entry.getValue();
+642-                iterator.remove();
+643:                recyclePlayer(old);
+644-            }
+645-        }
+646-
+647-        for (Integer index : wanted) {
+648-            if (!preloadedPlayers.containsKey(index)) {
+649:                ExoPlayer standby = obtainStandbyPlayer();
+650-
+651-                preloadedPlayers.put(index, standby);
+652:                prepareChannel(standby, index, true);
+653-            }
+654-        }
+655-    }
+656-
+657-
+658-    private void animateViewsBack() {
+659-        if (playerView == null) return;
+660-
+661-        playerView.animate().cancel();
+662-        playerView.animate()
+663-                .translationY(0f)
+664-                .setDuration(180)
+665-                .start();
+666-
+667-        if (portraitPanel != null) {
+668-            portraitPanel.animate().cancel();
+669-            portraitPanel.animate()
+670-                    .translationY(0f)
+671-                    .setDuration(180)
+672-                    .start();
+673-        }
+674-    }
+675-
+676-    private void finishChannelSwipe(int direction) {
+677-        if (channels.isEmpty() || channelTransitioning ||
+678-                playerView == null) return;
+679-
+680-        channelTransitioning = true;
+681-
+682-        final int height = Math.max(
+683-                playerView.getHeight(),
+684-                getResources().getDisplayMetrics().heightPixels
+685-        );
+686-
+687-        final float exitY = direction > 0 ? -height : height;
+688-        final float enterY = -exitY;
+689-
+690-        playerView.animate().cancel();
+691-
+692-        if (portraitPanel != null) {
+693-            portraitPanel.animate().cancel();
+694-        }
+695-
+696-        playerView.animate()
+697-                .translationY(exitY)
+698-                .setDuration(150)
+699-                .withEndAction(() -> {
+700-                    selectedIndex += direction;
+701-
+702-                    if (selectedIndex >= channels.size()) selectedIndex = 0;
+703-                    if (selectedIndex < 0) selectedIndex = channels.size() - 1;
+704-
+705-                    playSelected();
+706-
+707-                    playerView.setTranslationY(enterY);
+708-
+709-                    if (portraitPanel != null) {
+710-                        portraitPanel.setTranslationY(enterY);
+711-                    }
+712-
+713-                    playerView.animate()
+714-                            .translationY(0f)
+715-                            .setDuration(220)
+716-                            .withEndAction(() -> {
+717-                                channelTransitioning = false;
+718-                            })
+719-                            .start();
+720-
+721-                    if (portraitPanel != null) {
+722-                        portraitPanel.animate()
+723-                                .translationY(0f)
+724-                                .setDuration(220)
+725-                                .start();
+726-                    }
+727-                })
+728-                .start();
+729-
+730-        if (portraitPanel != null) {
+731-            portraitPanel.animate()
+732-                    .translationY(exitY)
+733-                    .setDuration(150)
+734-                    .start();
+735-        }
+736-    }
+737-
+738-    
+739-    private void playSelected() {
+740-        if (player == null || selectedIndex < 0 ||
+741-                selectedIndex >= channels.size()) return;
+742-
+743-        Channel channel = channels.get(selectedIndex);
+744-
+745-        updatePortraitOverlay();
+746-
+747-        if (loadingSpinner != null) {
+748-            loadingSpinner.setVisibility(View.VISIBLE);
+749-        }
+750-
+751-        if (status != null) {
+752-            status.setVisibility(View.GONE);
+--
+759-            if (readyPlayer != null) {
+760-                // Hazırlanmış komşu oynatıcıyı aktif hale getir.
+761-                player = readyPlayer;
+762-                playerView.setPlayer(player);
+763-
+764-                player.setVolume(1f);
+765-                player.setTrackSelectionParameters(
+766-                        player.getTrackSelectionParameters()
+767-                                .buildUpon()
+768-                                .setMaxVideoBitrate(Integer.MAX_VALUE)
+769-                                .build()
+770-                );
+771-
+772-                player.setPlayWhenReady(true);
+773-
+774:                recyclePlayer(oldActive);
+775-
+776-            } else {
+777-                // Hazır değilse mevcut aktif oynatıcıyla aç.
+778:                prepareChannel(player, selectedIndex, false);
+779-            }
+780-
+781-            setTitle(channel.name);
+782-            status.setVisibility(View.GONE);
+783-
+784-            // Önceden hazırlanmış oynatıcı READY olmuş olabilir.
+785-            int activeState = player.getPlaybackState();
+786-
+787-            if (activeState == Player.STATE_READY) {
+788-                loadingSpinner.setVisibility(View.GONE);
+789-            } else if (activeState == Player.STATE_BUFFERING ||
+790-                       activeState == Player.STATE_IDLE) {
+791-                loadingSpinner.setVisibility(View.VISIBLE);
+792-            }
+793-
+794:            prepareNeighborChannels();
+795-
+796-        } catch (Exception e) {
+797-            Log.e(TAG, "Kanal başlatılamadı", e);
+798-            loadingSpinner.setVisibility(View.GONE);
+799-        }
+800-    }
+801-
+802-
+803-
+804-    
+805-
+806-
+807-private boolean isPortraitMode() {
+808-    return getResources().getConfiguration().orientation
+809-            == Configuration.ORIENTATION_PORTRAIT;
+810-}
+811-
+812-private boolean isCurrentChannelFavorite() {
+813-    if (selectedIndex < 0 || selectedIndex >= channels.size()) return false;
+814-
+815-    String url = channels.get(selectedIndex).url;
+816-    try {
+817-        JSONArray favorites = new JSONArray(
+818-                getSharedPreferences("isa_tv_data", MODE_PRIVATE)
+819-                        .getString("favorites", "[]"));
+820-
+821-        for (int i = 0; i < favorites.length(); i++) {
+822-            JSONObject item = favorites.optJSONObject(i);
+823-            if (item != null && url.equals(item.optString("url", ""))) {
+824-                return true;
+825-            }
+826-        }
+827-    } catch (Exception e) {
+828-        Log.e(TAG, "Favoriler okunamadı", e);
+829-    }
+830-    return false;
+831-}
+832-
+833-private void updatePortraitOverlay() {
+834-    if (portraitChannelName == null || favoriteButton == null) return;
+835-
+836-    boolean portrait = isPortraitMode();
+837-
+838-    portraitChannelName.setVisibility(portrait ? View.VISIBLE : View.GONE);
+839-    portraitLiveBadge.setVisibility(portrait ? View.VISIBLE : View.GONE);
+840-    favoriteButton.setVisibility(portrait ? View.VISIBLE : View.GONE);
+841-
+842-    if (!portrait) return;
+843-
+844-    if (selectedIndex >= 0 && selectedIndex < channels.size()) {
+845-        Channel channel = channels.get(selectedIndex);
+846-        portraitChannelName.setText(
+847-                channel.name == null ? "İSA TV HD" : channel.name);
+848-    }
+849-
+850-    favoriteButton.setText(isCurrentChannelFavorite() ? "♥" : "♡");
+851-    favoriteButton.setContentDescription(
+852-            isCurrentChannelFavorite()
+853-                    ? "Favorilerden çıkar"
+854-                    : "Favorilere ekle");
+855-}
+856-
+857-private void toggleCurrentFavorite() {
+858-    if (selectedIndex < 0 || selectedIndex >= channels.size()) return;
+859-
+860-    Channel channel = channels.get(selectedIndex);
+861-    boolean add = !isCurrentChannelFavorite();
+862-
+863-    try {
+864-        JSONObject item = new JSONObject();
+865-        item.put("name", channel.name == null ? "İsimsiz kanal" : channel.name);
+866-        item.put("url", channel.url);
+867-        item.put("group", channel.group == null ? "Genel" : channel.group);
+868-        item.put("logo", channel.logo == null ? "" : channel.logo);
+869-
+870-        android.content.SharedPreferences prefs =
+871-                getSharedPreferences("isa_tv_data", MODE_PRIVATE);
+872-
+873-        JSONArray old = new JSONArray(prefs.getString("favorites", "[]"));
+874-        JSONArray updated = new JSONArray();
+875-
+876-        for (int i = 0; i < old.length(); i++) {
+877-            JSONObject existing = old.optJSONObject(i);
+878-            if (existing == null) continue;
+879-
+880-            if (!channel.url.equals(existing.optString("url", ""))) {
+881-                updated.put(existing);
+882-            }
+883-        }
+884-
+885-        if (add) updated.put(item);
+886-
+887-        prefs.edit().putString("favorites", updated.toString()).apply();
+888-        updatePortraitOverlay();
+889-
+890-    } catch (Exception e) {
+891-        Log.e(TAG, "Favori değiştirilemedi", e);
+892-    }
+893-}
+894-
+
+===== PORTRAIT UYARI VE CONFIGURATION =====
+43-
+44-    private static final String TAG = "ISATVPlayer";
+45-
+46-    private ExoPlayer player;
+47-
+48-    private final Map<Integer, ExoPlayer> preloadedPlayers =
+49-            new HashMap<>();
+50-
+51-    private final ArrayList<ExoPlayer> standbyPlayers =
+52-            new ArrayList<>();
+53-    private PlayerView playerView;
+54-    private TextView status;
+55-    private Button channelButton;
+56-    private TextView portraitChannelName;
+57-    private TextView portraitLiveBadge;
+58:    private LinearLayout portraitPanel;
+59-    private Button favoriteButton;
+60-private Dialog channelDialog;
+61-    private ImageView logo;
+62-    private android.widget.ProgressBar loadingSpinner;
+63-    private final Runnable hideChannelButton = () -> {
+64-        if (channelButton != null) channelButton.setVisibility(View.GONE);
+65-    };
+66-
+67-    private final Handler handler =
+68-            new Handler(Looper.getMainLooper());
+69-
+70-    private final ArrayList<Channel> channels =
+71-            new ArrayList<>();
+72-
+73-    private int selectedIndex = 0;
+74-    private boolean channelTransitioning = false;
+75-
+76-    private static class Channel {
+77-        String name;
+78-        String url;
+79-        String group;
+80-        String logo;
+81-        Map<String, String> headers = new HashMap<>();
+82-    }
+83-
+84-    @Override
+85-    protected void onCreate(Bundle savedInstanceState) {
+86-        super.onCreate(savedInstanceState);
+87-
+88-        getWindow().addFlags(
+89-                WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON
+90-        );
+91-
+92-        String queueJson = getIntent().getStringExtra("queue_json");
+93-
+94-String queueFile = getIntent().getStringExtra("queue_file");
+95-
+96-if (queueFile != null) {
+97-    try (java.io.FileInputStream input =
+98-                 new java.io.FileInputStream(queueFile)) {
+99-
+100-        java.io.ByteArrayOutputStream bytes =
+101-                new java.io.ByteArrayOutputStream();
+102-
+103-        byte[] buffer = new byte[8192];
+104-        int count;
+105-
+106-        while ((count = input.read(buffer)) != -1) {
+107-            bytes.write(buffer, 0, count);
+108-        }
+109-
+110-        queueJson = bytes.toString("UTF-8");
+111-
+112-    } catch (Exception e) {
+113-        android.util.Log.e("ISATV", "Kanal listesi okunamadı", e);
+114-        queueJson = "[]";
+115-    }
+116-}
+117-
+118-        selectedIndex =
+119-                getIntent().getIntExtra("selected_index", 0);
+120-
+121-        // Ekran döndürülünce son izlenen kanalı geri yükle.
+122-        if (savedInstanceState != null) {
+123-            selectedIndex = savedInstanceState.getInt(
+124-                    "isa_saved_channel_index", selectedIndex);
+125-        }
+126-
+127-        // Ekran döndüğünde son izlenen kanalı koru.
+128-        if (savedInstanceState != null) {
+--
+269-                                Math.abs(dy) > Math.abs(dx)) {
+270-                            dragging = true;
+271-
+272-                            float height = Math.max(
+273-                                    playerView.getHeight(),
+274-                                    getResources().getDisplayMetrics().heightPixels
+275-                            );
+276-
+277-                            float offset = Math.max(
+278-                                    -height,
+279-                                    Math.min(height, dy)
+280-                            );
+281-
+282-                            playerView.setTranslationY(offset);
+283-
+284:                            if (portraitPanel != null) {
+285:                                portraitPanel.setTranslationY(offset);
+286-                            }
+287-
+288:                            handler.removeCallbacks(hideChannelButton);
+289-                            channelButton.setVisibility(View.GONE);
+290-                        }
+291-                        return true;
+292-
+293-                    case android.view.MotionEvent.ACTION_UP:
+294-                        float moveY = event.getY() - startY;
+295-                        float moveX = event.getX() - startX;
+296-
+297-                        if (dragging) {
+298-                            float threshold = Math.max(
+299-                                    dp(90),
+300-                                    playerView.getHeight() * 0.22f
+301-                            );
+302-
+303-                            if (Math.abs(moveY) >= threshold) {
+304-                                finishChannelSwipe(moveY < 0 ? 1 : -1);
+305-                            } else {
+306-                                animateViewsBack();
+307-                            }
+308-                        } else if (Math.abs(moveX) < dp(30) &&
+309-                                   Math.abs(moveY) < dp(30)) {
+310-                            // Dokunma ile kanal listesi açılmaz.
+311-                            // Kanal değiştirme kaydırma hareketi korunur.
+312-                            channelButton.setVisibility(View.GONE);
+313-                        }
+314-
+315-                        dragging = false;
+316-                        return true;
+317-
+318-                    case android.view.MotionEvent.ACTION_CANCEL:
+319-                        if (dragging) animateViewsBack();
+320-                        dragging = false;
+321-                        return true;
+322-                }
+323-                return true;
+324-            }
+325-        });
+326-
+327-        root.addView(channelTapLayer, new FrameLayout.LayoutParams(
+328-                FrameLayout.LayoutParams.MATCH_PARENT,
+329-                FrameLayout.LayoutParams.MATCH_PARENT
+330-        ));
+331-
+332-        status = new TextView(this);
+333-        status.setTextColor(Color.WHITE);
+334-        status.setTextSize(15);
+335-        status.setGravity(Gravity.CENTER);
+336-        status.setBackgroundColor(0x99000000);
+337-        status.setVisibility(View.GONE);
+338-
+339-        root.addView(status, new FrameLayout.LayoutParams(
+340-                -2, -2, Gravity.CENTER
+341-        ));
+342-
+343-        loadingSpinner = new android.widget.ProgressBar(
+344-                this, null, android.R.attr.progressBarStyleLarge
+345-        );
+346-        loadingSpinner.setIndeterminate(true);
+347-        loadingSpinner.setIndeterminateTintList(
+348-                android.content.res.ColorStateList.valueOf(Color.RED)
+349-        );
+350-        loadingSpinner.setVisibility(View.GONE);
+351-
+352-        FrameLayout.LayoutParams spinnerParams =
+353-                new FrameLayout.LayoutParams(dp(54), dp(54), Gravity.CENTER);
+354-        root.addView(loadingSpinner, spinnerParams);
+355-
+356-        channelButton = new Button(this);
+357-        channelButton.setText("KANAL LİSTESİ");
+358-        channelButton.setTextSize(12);
+--
+420-                if (videoContent instanceof FrameLayout) {
+421-                    ((FrameLayout) videoContent).addView(logo, logoParams);
+422-
+423-                    // Yayının sol alt köşesindeki reklam/QR işaretini kapat.
+424-                    
+425-                } else {
+426-                    root.addView(logo, logoParams);
+427-                }
+428-
+429-            } catch (Exception e) {
+430-                Log.e(TAG, "Logo yüklenemedi", e);
+431-            }
+432-        }
+433-
+434-        // Dikey Shorts bilgi ve favori katmanı
+435:        portraitPanel = new LinearLayout(this);
+436:        portraitPanel.setOrientation(LinearLayout.VERTICAL);
+437:        portraitPanel.setPadding(dp(14), dp(10), dp(14), dp(12));
+438:        portraitPanel.setBackgroundColor(0x99000000);
+439-
+440-        LinearLayout channelInfo = new LinearLayout(this);
+441-        channelInfo.setOrientation(LinearLayout.HORIZONTAL);
+442-        channelInfo.setGravity(Gravity.CENTER_VERTICAL);
+443-
+444-        portraitChannelName = new TextView(this);
+445-        portraitChannelName.setTextColor(Color.WHITE);
+446-        portraitChannelName.setTextSize(16);
+447-        portraitChannelName.setTypeface(null, android.graphics.Typeface.BOLD);
+448-        portraitChannelName.setMaxLines(1);
+449-        portraitChannelName.setEllipsize(android.text.TextUtils.TruncateAt.END);
+450-
+451-        LinearLayout.LayoutParams channelNameParams =
+452-                new LinearLayout.LayoutParams(0, -2, 1f);
+453-        channelInfo.addView(portraitChannelName, channelNameParams);
+454-
+455-        portraitLiveBadge = new TextView(this);
+456-        portraitLiveBadge.setText("● CANLI");
+457-        portraitLiveBadge.setTextColor(Color.WHITE);
+458-        portraitLiveBadge.setTextSize(11);
+459-        portraitLiveBadge.setTypeface(null, android.graphics.Typeface.BOLD);
+460-        portraitLiveBadge.setPadding(dp(9), dp(5), dp(9), dp(5));
+461-        portraitLiveBadge.setBackgroundColor(0xFFE50914);
+462-        channelInfo.addView(portraitLiveBadge);
+463-
+464:        portraitPanel.addView(channelInfo);
+465-
+466-        favoriteButton = new Button(this);
+467-        favoriteButton.setTextSize(23);
+468-        favoriteButton.setTextColor(Color.WHITE);
+469-        favoriteButton.setAllCaps(false);
+470-        favoriteButton.setMinWidth(dp(52));
+471-        favoriteButton.setMinimumWidth(dp(52));
+472-        favoriteButton.setPadding(0, 0, 0, 0);
+473-        favoriteButton.setBackgroundColor(0x00000000);
+474-        favoriteButton.setOnClickListener(v -> toggleCurrentFavorite());
+475-
+476-        LinearLayout.LayoutParams favoriteParams =
+477-                new LinearLayout.LayoutParams(dp(54), dp(48));
+478-        favoriteParams.topMargin = dp(3);
+479:        portraitPanel.addView(favoriteButton, favoriteParams);
+480-
+481-        FrameLayout.LayoutParams portraitParams =
+482-                new FrameLayout.LayoutParams(
+483-                        dp(300), -2,
+484-                        Gravity.BOTTOM | Gravity.LEFT
+485-                );
+486-        portraitParams.setMargins(dp(10), 0, dp(10), dp(24));
+487:        root.addView(portraitPanel, portraitParams);
+488-
+489-        updatePortraitOverlay();
+490-
+491-        setContentView(root);
+492-    }
+493-
+494-    
+495-    private void initializePlayer() {
+496-        player = createManagedPlayer(false);
+497-        playerView.setPlayer(player);
+498-    }
+499-
+500-    private ExoPlayer createManagedPlayer(boolean preload) {
+501-        ExoPlayer p = new ExoPlayer.Builder(this).build();
+502-
+503-        p.setVolume(preload ? 0f : 1f);
+504-
+505-        p.setTrackSelectionParameters(
+506-                p.getTrackSelectionParameters()
+507-                        .buildUpon()
+508-                        .setMaxVideoBitrate(
+509-                                preload ? 1500000 : Integer.MAX_VALUE
+510-                        )
+511-                        .build()
+512-        );
+513-
+514-        p.addListener(new Player.Listener() {
+515-            @Override
+516-            public void onPlaybackStateChanged(int state) {
+517-                if (p != player) return;
+518-
+519-                if (state == Player.STATE_READY) {
+520-                    status.setVisibility(View.GONE);
+521-                    loadingSpinner.setVisibility(View.GONE);
+522-                } else if (state == Player.STATE_BUFFERING) {
+523-                    loadingSpinner.setVisibility(View.VISIBLE);
+524-                } else if (state == Player.STATE_IDLE) {
+525-                    loadingSpinner.setVisibility(View.GONE);
+526-                }
+527-            }
+528-
+529-            @Override
+530-            public void onPlayerError(PlaybackException error) {
+531-                Log.e(TAG, "Oynatıcı hatası: "
+532-                        + error.getErrorCodeName(), error);
+533-
+534-                if (p == player) {
+535-                    status.setVisibility(View.GONE);
+536-                    loadingSpinner.setVisibility(View.GONE);
+537-                }
+538-            }
+539-        });
+540-
+541-        return p;
+542-    }
+543-
+544-    private void prepareChannel(ExoPlayer target, int index,
+545-                               boolean preload) {
+546-        if (index < 0 || index >= channels.size()) return;
+547-
+548-        Channel channel = channels.get(index);
+549-
+550-        try {
+551-            DefaultHttpDataSource.Factory factory =
+552-                    new DefaultHttpDataSource.Factory()
+553-                            .setUserAgent(
+554-                                    channel.headers.containsKey("User-Agent")
+555-                                    ? channel.headers.get("User-Agent")
+556-                                    : "Mozilla/5.0 (Linux; Android 11) "
+557-                                    + "AppleWebKit/537.36 Chrome/120 Safari/537.36"
+--
+652-                prepareChannel(standby, index, true);
+653-            }
+654-        }
+655-    }
+656-
+657-
+658-    private void animateViewsBack() {
+659-        if (playerView == null) return;
+660-
+661-        playerView.animate().cancel();
+662-        playerView.animate()
+663-                .translationY(0f)
+664-                .setDuration(180)
+665-                .start();
+666-
+667:        if (portraitPanel != null) {
+668:            portraitPanel.animate().cancel();
+669:            portraitPanel.animate()
+670-                    .translationY(0f)
+671-                    .setDuration(180)
+672-                    .start();
+673-        }
+674-    }
+675-
+676-    private void finishChannelSwipe(int direction) {
+677-        if (channels.isEmpty() || channelTransitioning ||
+678-                playerView == null) return;
+679-
+680-        channelTransitioning = true;
+681-
+682-        final int height = Math.max(
+683-                playerView.getHeight(),
+684-                getResources().getDisplayMetrics().heightPixels
+685-        );
+686-
+687-        final float exitY = direction > 0 ? -height : height;
+688-        final float enterY = -exitY;
+689-
+690-        playerView.animate().cancel();
+691-
+692:        if (portraitPanel != null) {
+693:            portraitPanel.animate().cancel();
+694-        }
+695-
+696-        playerView.animate()
+697-                .translationY(exitY)
+698-                .setDuration(150)
+699-                .withEndAction(() -> {
+700-                    selectedIndex += direction;
+701-
+702-                    if (selectedIndex >= channels.size()) selectedIndex = 0;
+703-                    if (selectedIndex < 0) selectedIndex = channels.size() - 1;
+704-
+705-                    playSelected();
+706-
+707-                    playerView.setTranslationY(enterY);
+708-
+709:                    if (portraitPanel != null) {
+710:                        portraitPanel.setTranslationY(enterY);
+711-                    }
+712-
+713-                    playerView.animate()
+714-                            .translationY(0f)
+715-                            .setDuration(220)
+716-                            .withEndAction(() -> {
+717-                                channelTransitioning = false;
+718-                            })
+719-                            .start();
+720-
+721:                    if (portraitPanel != null) {
+722:                        portraitPanel.animate()
+723-                                .translationY(0f)
+724-                                .setDuration(220)
+725-                                .start();
+726-                    }
+727-                })
+728-                .start();
+729-
+730:        if (portraitPanel != null) {
+731:            portraitPanel.animate()
+732-                    .translationY(exitY)
+733-                    .setDuration(150)
+734-                    .start();
+735-        }
+736-    }
+737-
+738-    
+739-    private void playSelected() {
+740-        if (player == null || selectedIndex < 0 ||
+741-                selectedIndex >= channels.size()) return;
+742-
+743-        Channel channel = channels.get(selectedIndex);
+744-
+745-        updatePortraitOverlay();
+746-
+747-        if (loadingSpinner != null) {
+748-            loadingSpinner.setVisibility(View.VISIBLE);
+749-        }
+750-
+751-        if (status != null) {
+752-            status.setVisibility(View.GONE);
+753-        }
+754-
+755-        ExoPlayer oldActive = player;
+756-        ExoPlayer readyPlayer = preloadedPlayers.remove(selectedIndex);
+757-
+758-        try {
+759-            if (readyPlayer != null) {
+760-                // Hazırlanmış komşu oynatıcıyı aktif hale getir.
+761-                player = readyPlayer;
+762-                playerView.setPlayer(player);
+763-
+764-                player.setVolume(1f);
+765-                player.setTrackSelectionParameters(
+766-                        player.getTrackSelectionParameters()
+767-                                .buildUpon()
+768-                                .setMaxVideoBitrate(Integer.MAX_VALUE)
+769-                                .build()
+770-                );
+771-
+772-                player.setPlayWhenReady(true);
+773-
+774-                recyclePlayer(oldActive);
+775-
+776-            } else {
+777-                // Hazır değilse mevcut aktif oynatıcıyla aç.
+778-                prepareChannel(player, selectedIndex, false);
+779-            }
+780-
+781-            setTitle(channel.name);
+782-            status.setVisibility(View.GONE);
+783-
+784-            // Önceden hazırlanmış oynatıcı READY olmuş olabilir.
+785-            int activeState = player.getPlaybackState();
+786-
+787-            if (activeState == Player.STATE_READY) {
+788-                loadingSpinner.setVisibility(View.GONE);
+789-            } else if (activeState == Player.STATE_BUFFERING ||
+790-                       activeState == Player.STATE_IDLE) {
+791-                loadingSpinner.setVisibility(View.VISIBLE);
+792-            }
+793-
+794-            prepareNeighborChannels();
+795-
+796-        } catch (Exception e) {
+797-            Log.e(TAG, "Kanal başlatılamadı", e);
+798-            loadingSpinner.setVisibility(View.GONE);
+799-        }
+800-    }
+801-
+802-
+803-
+804-    
+805-
+806-
+807:private boolean isPortraitMode() {
+808-    return getResources().getConfiguration().orientation
+809-            == Configuration.ORIENTATION_PORTRAIT;
+810-}
+811-
+812-private boolean isCurrentChannelFavorite() {
+813-    if (selectedIndex < 0 || selectedIndex >= channels.size()) return false;
+814-
+815-    String url = channels.get(selectedIndex).url;
+816-    try {
+817-        JSONArray favorites = new JSONArray(
+818-                getSharedPreferences("isa_tv_data", MODE_PRIVATE)
+819-                        .getString("favorites", "[]"));
+820-
+821-        for (int i = 0; i < favorites.length(); i++) {
+822-            JSONObject item = favorites.optJSONObject(i);
+823-            if (item != null && url.equals(item.optString("url", ""))) {
+824-                return true;
+825-            }
+826-        }
+827-    } catch (Exception e) {
+828-        Log.e(TAG, "Favoriler okunamadı", e);
+829-    }
+830-    return false;
+831-}
+832-
+833-private void updatePortraitOverlay() {
+834-    if (portraitChannelName == null || favoriteButton == null) return;
+835-
+836:    boolean portrait = isPortraitMode();
+837-
+838-    portraitChannelName.setVisibility(portrait ? View.VISIBLE : View.GONE);
+839-    portraitLiveBadge.setVisibility(portrait ? View.VISIBLE : View.GONE);
+840-    favoriteButton.setVisibility(portrait ? View.VISIBLE : View.GONE);
+841-
+842-    if (!portrait) return;
+843-
+844-    if (selectedIndex >= 0 && selectedIndex < channels.size()) {
+845-        Channel channel = channels.get(selectedIndex);
+846-        portraitChannelName.setText(
+847-                channel.name == null ? "İSA TV HD" : channel.name);
+848-    }
+849-
+850-    favoriteButton.setText(isCurrentChannelFavorite() ? "♥" : "♡");
+851-    favoriteButton.setContentDescription(
+852-            isCurrentChannelFavorite()
+853-                    ? "Favorilerden çıkar"
+854-                    : "Favorilere ekle");
+855-}
+856-
+857-private void toggleCurrentFavorite() {
+858-    if (selectedIndex < 0 || selectedIndex >= channels.size()) return;
+859-
+860-    Channel channel = channels.get(selectedIndex);
+861-    boolean add = !isCurrentChannelFavorite();
+862-
+863-    try {
+864-        JSONObject item = new JSONObject();
+865-        item.put("name", channel.name == null ? "İsimsiz kanal" : channel.name);
+866-        item.put("url", channel.url);
+867-        item.put("group", channel.group == null ? "Genel" : channel.group);
+868-        item.put("logo", channel.logo == null ? "" : channel.logo);
+869-
+870-        android.content.SharedPreferences prefs =
+871-                getSharedPreferences("isa_tv_data", MODE_PRIVATE);
+872-
+873-        JSONArray old = new JSONArray(prefs.getString("favorites", "[]"));
+874-        JSONArray updated = new JSONArray();
+875-
+876-        for (int i = 0; i < old.length(); i++) {
+877-            JSONObject existing = old.optJSONObject(i);
+878-            if (existing == null) continue;
+879-
+880-            if (!channel.url.equals(existing.optString("url", ""))) {
+881-                updated.put(existing);
+882-            }
+883-        }
+884-
+885-        if (add) updated.put(item);
+886-
+887-        prefs.edit().putString("favorites", updated.toString()).apply();
+888-        updatePortraitOverlay();
+889-
+890-    } catch (Exception e) {
+891-        Log.e(TAG, "Favori değiştirilemedi", e);
+892-    }
+893-}
+894-
+895-private void showChannelList() {
+896-    if (channels.isEmpty()) return;
+897-    if (channelDialog != null && channelDialog.isShowing()) return;
+898-
+899-    final Dialog dialog = new Dialog(this);
+900-    channelDialog = dialog;
+901-
+902-    final java.util.ArrayList<String> groups = new java.util.ArrayList<>();
+903-    final java.util.LinkedHashMap<String, java.util.ArrayList<Integer>> grouped =
+904-            new java.util.LinkedHashMap<>();
+905-
+906-    for (int i = 0; i < channels.size(); i++) {
+--
+923-        if (selectedGroup == null || selectedGroup.trim().isEmpty()) {
+924-            selectedGroup = "Genel";
+925-        } else {
+926-            selectedGroup = selectedGroup.trim();
+927-        }
+928-
+929-        int foundGroup = groups.indexOf(selectedGroup);
+930-        if (foundGroup >= 0) groupIndex[0] = foundGroup;
+931-    }
+932-
+933-    final java.util.ArrayList<Integer> visibleItems = new java.util.ArrayList<>();
+934-
+935-    LinearLayout root = new LinearLayout(this);
+936-    root.setOrientation(LinearLayout.VERTICAL);
+937-    root.setPadding(
+938:            dp(isPortraitMode() ? 14 : 8),
+939:            dp(isPortraitMode() ? 14 : 8),
+940:            dp(isPortraitMode() ? 14 : 8),
+941:            dp(isPortraitMode() ? 12 : 8));
+942-    root.setBackgroundColor(Color.rgb(17, 21, 29));
+943-
+944-    TextView title = new TextView(this);
+945-    title.setText("İSA TV HD  •  KANALLAR");
+946-    title.setTextColor(Color.WHITE);
+947-    title.setTextSize(18);
+948-    title.setTypeface(null, android.graphics.Typeface.BOLD);
+949-    title.setPadding(dp(8), dp(8), dp(8), dp(14));
+950-    root.addView(title);
+951-
+952-    LinearLayout groupBar = new LinearLayout(this);
+953-    groupBar.setGravity(Gravity.CENTER);
+954-    groupBar.setOrientation(LinearLayout.HORIZONTAL);
+955-    groupBar.setPadding(dp(4), dp(8), dp(4), dp(8));
+956-    groupBar.setBackgroundColor(0xFF252E3C);
+957-
+958-    TextView previous = new TextView(this);
+959-    previous.setText("‹");
+960-    previous.setTextSize(30);
+961-    previous.setTextColor(Color.WHITE);
+962-    previous.setGravity(Gravity.CENTER);
+963-    previous.setMinWidth(dp(48));
+964-
+965-    TextView groupName = new TextView(this);
+966-    groupName.setTextColor(Color.WHITE);
+967-    groupName.setTextSize(14);
+968-    groupName.setTypeface(null, android.graphics.Typeface.BOLD);
+969-    groupName.setGravity(Gravity.CENTER);
+970-    groupName.setMaxLines(2);
+971-
+972-    TextView next = new TextView(this);
+973-    next.setText("›");
+974-    next.setTextSize(30);
+975-    next.setTextColor(Color.WHITE);
+976-    next.setGravity(Gravity.CENTER);
+977-    next.setMinWidth(dp(48));
+978-
+979-    groupBar.addView(previous);
+980-    groupBar.addView(groupName, new LinearLayout.LayoutParams(
+981-            0, dp(48), 1f));
+982-    groupBar.addView(next);
+983-    root.addView(groupBar);
+984-
+985-    EditText search = new EditText(this);
+986-    search.setSingleLine(true);
+987-    search.setTextColor(Color.WHITE);
+988-    search.setHintTextColor(0xFFAAAAAA);
+989-    search.setHint("Bu grupta kanal ara...");
+990-    search.setTextSize(14);
+991-    search.setPadding(dp(12), 0, dp(12), 0);
+992-    search.setBackgroundColor(0xFF252E3C);
+993-
+994-    LinearLayout.LayoutParams searchParams =
+995:            new LinearLayout.LayoutParams(-1, dp(isPortraitMode() ? 46 : 36));
+996-    searchParams.topMargin = dp(10);
+997-    searchParams.bottomMargin = dp(8);
+998-    root.addView(search, searchParams);
+999-
+1000-    ListView list = new ListView(this);
+1001-    list.setDivider(new android.graphics.drawable.ColorDrawable(0x22FFFFFF));
+1002-    list.setDividerHeight(dp(1));
+1003-    list.setCacheColorHint(Color.TRANSPARENT);
+1004-
+1005-    TextView count = new TextView(this);
+1006-    count.setTextColor(0xFFAAAAAA);
+1007-    count.setTextSize(12);
+1008-    count.setPadding(dp(8), dp(8), dp(8), dp(8));
+1009-    root.addView(count);
+1010-
+1011-    BaseAdapter adapter = new BaseAdapter() {
+1012-        @Override public int getCount() {
+1013-            return visibleItems.size();
+1014-        }
+1015-
+1016-        @Override public Object getItem(int position) {
+1017-            return channels.get(visibleItems.get(position));
+1018-        }
+1019-
+1020-        @Override public long getItemId(int position) {
+1021-            return visibleItems.get(position);
+1022-        }
+1023-
+1024-        @Override public View getView(int position, View recycled,
+1025-                                      android.view.ViewGroup parent) {
+1026-            LinearLayout row;
+1027-            ImageView icon;
+1028-            LinearLayout texts;
+1029-            TextView name;
+1030-            TextView subtitle;
+1031-
+1032-            if (recycled instanceof LinearLayout) {
+1033-                row = (LinearLayout) recycled;
+1034-                icon = (ImageView) row.getChildAt(0);
+1035-                texts = (LinearLayout) row.getChildAt(1);
+1036-                name = (TextView) texts.getChildAt(0);
+1037-                subtitle = (TextView) texts.getChildAt(1);
+1038-            } else {
+1039-                row = new LinearLayout(PlayerActivity.this);
+1040-                row.setGravity(Gravity.CENTER_VERTICAL);
+1041-                row.setOrientation(LinearLayout.HORIZONTAL);
+1042-                row.setPadding(dp(10), dp(8), dp(10), dp(8));
+1043:                row.setMinimumHeight(dp(isPortraitMode() ? 60 : 32));
+1044-
+1045-                icon = new ImageView(PlayerActivity.this);
+1046-                icon.setScaleType(ImageView.ScaleType.FIT_CENTER);
+1047-                row.addView(icon, new LinearLayout.LayoutParams(
+1048:                        dp(isPortraitMode() ? 46 : 26),
+1049:                        dp(isPortraitMode() ? 46 : 26)));
+1050-
+1051-                texts = new LinearLayout(PlayerActivity.this);
+1052-                texts.setOrientation(LinearLayout.VERTICAL);
+1053-                texts.setPadding(dp(12), 0, 0, 0);
+1054-
+1055-                name = new TextView(PlayerActivity.this);
+1056-                name.setTextColor(Color.WHITE);
+1057:                name.setTextSize(isPortraitMode() ? 14 : 12);
+1058-                name.setMaxLines(1);
+1059-                name.setEllipsize(android.text.TextUtils.TruncateAt.END);
+1060-
+1061-                subtitle = new TextView(PlayerActivity.this);
+1062-                subtitle.setTextColor(0xFFAAAAAA);
+1063:                subtitle.setTextSize(isPortraitMode() ? 11 : 9);
+1064-
+1065-                texts.addView(name);
+1066-                texts.addView(subtitle);
+1067-                row.addView(texts, new LinearLayout.LayoutParams(
+1068-                        0, -2, 1f));
+1069-            }
+1070-
+1071-            int actual = visibleItems.get(position);
+1072-            Channel c = channels.get(actual);
+1073-
+1074-            name.setText((actual == selectedIndex ? "●  " : "")
+1075-                    + (c.name == null ? "İsimsiz kanal" : c.name));
+1076-            subtitle.setText(actual == selectedIndex ? "ŞU ANDA OYNUYOR" : "CANLI YAYIN");
+1077-            row.setBackgroundColor(actual == selectedIndex
+1078-                    ? 0xFF303D50 : Color.TRANSPARENT);
+1079-
+1080-            icon.setImageDrawable(null);
+1081-            if (c.logo != null && !c.logo.isEmpty()) {
+1082-                try {
+1083-                    new android.os.AsyncTask<Void, Void, android.graphics.Bitmap>() {
+1084-                        @Override
+1085-                        protected android.graphics.Bitmap doInBackground(Void... v) {
+1086-                            try {
+1087-                                return android.graphics.BitmapFactory.decodeStream(
+1088-                                        new java.net.URL(c.logo).openStream());
+1089-                            } catch (Exception e) {
+1090-                                return null;
+1091-                            }
+1092-                        }
+1093-                        @Override
+1094-                        protected void onPostExecute(android.graphics.Bitmap bitmap) {
+1095-                            if (bitmap != null && icon.getParent() != null) {
+1096-                                icon.setImageBitmap(bitmap);
+1097-                            }
+1098-                        }
+1099-                    }.execute();
+1100-                } catch (Exception ignored) {}
+1101-            }
+1102-            return row;
+1103-        }
+1104-    };
+1105-
+1106-    Runnable updateList = () -> {
+1107-        String group = groups.get(groupIndex[0]);
+1108-        java.util.ArrayList<Integer> source = grouped.get(group);
+1109-        visibleItems.clear();
+1110-
+1111-        String term = search.getText().toString().toLowerCase(
+1112-                java.util.Locale.forLanguageTag("tr"));
+1113-
+1114-        for (Integer index : source) {
+1115-            String name = channels.get(index).name;
+1116-            if (name == null) name = "";
+1117-            if (name.toLowerCase(java.util.Locale.forLanguageTag("tr"))
+1118-                    .contains(term)) {
+1119-                visibleItems.add(index);
+1120-            }
+1121-        }
+1122-
+1123-        groupName.setText(group + "\n" + source.size() + " KANAL");
+1124-        count.setText(visibleItems.size() + " kanal gösteriliyor");
+1125-        adapter.notifyDataSetChanged();
+1126-    };
+1127-
+1128-    previous.setOnClickListener(v -> {
+1129-        groupIndex[0] = (groupIndex[0] - 1 + groups.size()) % groups.size();
+1130-        search.setText("");
+1131-        updateList.run();
+1132-    });
+1133-
+--
+1153-        playSelected();
+1154-    });
+1155-
+1156-    root.addView(list, new LinearLayout.LayoutParams(-1, 0, 1f));
+1157-
+1158-    TextView close = new TextView(this);
+1159-    close.setText("KAPAT");
+1160-    close.setTextColor(Color.WHITE);
+1161-    close.setGravity(Gravity.CENTER);
+1162-    close.setTextSize(13);
+1163-    close.setBackgroundColor(0xFF303D50);
+1164-    close.setPadding(0, dp(12), 0, dp(12));
+1165-    close.setOnClickListener(v -> dialog.dismiss());
+1166-
+1167-    LinearLayout.LayoutParams closeParams =
+1168:            new LinearLayout.LayoutParams(-1, dp(isPortraitMode() ? 46 : 34));
+1169-    closeParams.topMargin = dp(4);
+1170-    root.addView(close, closeParams);
+1171-
+1172-    updateList.run();
+1173-
+1174-    int selectedPosition = visibleItems.indexOf(selectedIndex);
+1175-    if (selectedPosition >= 0) {
+1176-        list.setSelection(selectedPosition);
+1177-    }
+1178-
+1179-    dialog.setContentView(root);
+1180-    dialog.setCancelable(true);
+1181-    dialog.setOnDismissListener(d -> {
+1182-        if (channelDialog == dialog) channelDialog = null;
+1183-    });
+1184-    dialog.show();
+1185-
+1186-    if (dialog.getWindow() != null) {
+1187-        dialog.getWindow().setBackgroundDrawableResource(
+1188-                android.R.color.transparent);
+1189-        int screenWidth = getResources().getDisplayMetrics().widthPixels;
+1190-        int screenHeight = getResources().getDisplayMetrics().heightPixels;
+1191:        int panelWidth = isPortraitMode()
+1192-                ? (int)(screenWidth * 0.94f)
+1193-                : Math.min(dp(430), (int)(screenWidth * 0.42f));
+1194-
+1195-        dialog.getWindow().setLayout(
+1196-                panelWidth,
+1197-                (int)(screenHeight * 0.96f));
+1198-        dialog.getWindow().setGravity(
+1199-                Gravity.LEFT | Gravity.CENTER_VERTICAL);
+1200-        dialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
+1201-        WindowManager.LayoutParams params = dialog.getWindow().getAttributes();
+1202-        params.dimAmount = 0.72f;
+1203-        dialog.getWindow().setAttributes(params);
+1204-    }
+1205-}
+1206-
+1207-
+1208-
+1209-    private boolean shouldShowTvLogo() {
+1210-        return true;
+1211-    }
+1212-
+1213-    private int dp(float value) {
+1214-        return (int) (
+1215-                value * getResources().getDisplayMetrics().density
+1216-                + 0.5f
+1217-        );
+1218-    }
+1219-
+1220-    @Override
+1221-    public void onBackPressed() {
+1222-        super.onBackPressed();
+1223-    }
+1224-
+1225-    
+1226-
+1227-    
+1228-
+1229-    
+1230-
+1231-    @Override
+1232-    protected void onSaveInstanceState(Bundle outState) {
+1233-        outState.putInt("isa_saved_channel_index", selectedIndex);
+1234-        super.onSaveInstanceState(outState);
+1235-    }
+1236-
+1237-    @Override
+1238:    public void onConfigurationChanged(Configuration newConfig) {
+1239:        super.onConfigurationChanged(newConfig);
+1240-
+1241-        // Mevcut ExoPlayer ve video yüzeyini değiştirme.
+1242-        // Böylece yayın bağlantısı yeniden kurulmaz.
+1243-        if (channelDialog != null && channelDialog.isShowing()) {
+1244-            channelDialog.dismiss();
+1245-        }
+1246-
+1247-        if (logo != null &&
+1248-                logo.getLayoutParams() instanceof FrameLayout.LayoutParams) {
+1249:            boolean portrait = isPortraitMode();
+1250-
+1251-            FrameLayout.LayoutParams lp =
+1252-                    (FrameLayout.LayoutParams) logo.getLayoutParams();
+1253-
+1254-            lp.width = dp(portrait ? 68 : 130);
+1255-            lp.height = dp(portrait ? 42 : 80);
+1256-            lp.gravity = Gravity.TOP | Gravity.RIGHT;
+1257-            lp.setMargins(
+1258-                    0,
+1259-                    dp(portrait ? 8 : 12),
+1260-                    dp(portrait ? 8 : 12),
+1261-                    0);
+1262-
+1263-            logo.setLayoutParams(lp);
+1264-            logo.setPadding(
+1265-                    portrait ? 0 : dp(5),
+1266-                    portrait ? 0 : dp(5),
+1267-                    portrait ? 0 : dp(5),
+1268-                    portrait ? 0 : dp(5));
+1269-            logo.setBackgroundColor(
+1270-                    portrait ? Color.TRANSPARENT : 0x880F0F0F);
+1271-        }
+1272-
+1273-        updatePortraitOverlay();
+1274-        if (channelButton != null) {
+1275-            channelButton.setVisibility(View.GONE);
+1276-        }
+1277-        applyImmersiveMode();
+1278-    }
+1279-
+1280-    @Override
+1281-    protected void onPause() {
+1282-        super.onPause();
+1283-        if (player != null) player.pause();
+1284-    }
+1285-
+1286-    @Override
+1287-    protected void onDestroy() {
+1288:        handler.removeCallbacksAndMessages(null);
+1289-
+1290-        if (playerView != null) {
+1291-            playerView.setPlayer(null);
+1292-        }
+1293-
+1294-        java.util.HashSet<ExoPlayer> allPlayers =
+1295-                new java.util.HashSet<>();
+1296-
+1297-        if (player != null) allPlayers.add(player);
+1298-        allPlayers.addAll(preloadedPlayers.values());
+1299-        allPlayers.addAll(standbyPlayers);
+1300-
+1301-        preloadedPlayers.clear();
+1302-        standbyPlayers.clear();
+1303-
+1304-        for (ExoPlayer p : allPlayers) {
+1305-            try {
+1306-                p.release();
+1307-            } catch (Exception ignored) {}
+1308-        }
+1309-
+1310-        player = null;
+1311-
+1312-        super.onDestroy();
+1313-    }
+1314-
+1315-}
+
+===== ML KIT KULLANIMI =====
